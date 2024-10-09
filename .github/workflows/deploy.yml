@@ -26,19 +26,22 @@ jobs:
     - name: 构建 MkDocs
       run: mkdocs build
 
-    - name: 克隆目标仓库
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: 设置 SSH 密钥
       run: |
-        git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/wardenxyz/wardenxyz.github.io.git target_repo
+        mkdir -p ~/.ssh
+        echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+    - name: 克隆目标仓库
+      run: |
+        git clone git@github.com:wardenxyz/wardenxyz.github.io.git target_repo
 
     - name: 复制生成的文件到目标仓库
       run: |
         cp -r site/* target_repo/
 
     - name: 提交并推送更改到目标仓库
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         cd target_repo
         git config --global user.name 'GitHub Actions'
