@@ -8,6 +8,7 @@
 
 ### 十月
 
+- [GitHub page 搭建学习笔记](<docs/posts/2024/10/GitHub page 搭建学习笔记.md>)
 - [多服务共享单一域名的奥秘](docs/posts/2024/10/多服务共享单一域名的奥秘.md)
 - [Linux 学习笔记](docs/posts/2024/10/Linux%20学习笔记.md)
 - [python 学习笔记](docs/posts/2024/10/python%20学习笔记.md)

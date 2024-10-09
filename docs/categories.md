@@ -22,6 +22,7 @@
 - [用 you-get 下载B站视频](<posts/2024/08/用 you-get 下载B站视频.md>)
 - [git 强制覆盖本地仓库](<posts/2024/09/git 强制覆盖本地仓库.md>)
 - [git-sizer 使用](<posts/2024/10/git-sizer 使用.md>)
+- [GitHub page 搭建学习笔记](<posts/2024/10/GitHub page 搭建学习笔记.md>)
 - [lazy.nvim 使用心得](<posts/2024/10/lazy.nvim 使用心得.md>)
 - [Linux 学习笔记](<posts/2024/10/Linux 学习笔记.md>)
 - [OpenSSL 加解密学习笔记](<posts/2024/10/OpenSSL 加解密学习笔记.md>)

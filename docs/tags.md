@@ -104,6 +104,10 @@
 
 - [职业规划培训](<posts/2024/09/职业规划培训.md>)
 
+### GitHub page
+
+- [GitHub page 搭建学习笔记](<posts/2024/10/GitHub page 搭建学习笔记.md>)
+
 ### nvim
 
 - [lazy.nvim 使用心得](<posts/2024/10/lazy.nvim 使用心得.md>)
