@@ -1,4 +1,4 @@
-site_name: 记录{IT、数学、生活}
+site_name: 我的文档
 
 nav:
   - Home: index.md
@@ -73,9 +73,9 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
-    - header.autohide
+    # - header.autohide
     # - navigation.footer # 底部上一页下一页
-    # - toc.integrate
+    - toc.integrate
     - content.code.copy
   plugins:
     - search
