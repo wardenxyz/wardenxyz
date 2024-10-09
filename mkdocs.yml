@@ -52,7 +52,7 @@ theme:
     # 浅色模式的调色板切换
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: white
+      primary: default
       accent: indigo
       toggle:
         icon: material/weather-sunny
