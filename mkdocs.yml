@@ -84,7 +84,7 @@ theme:
     # - navigation.footer # 底部上一页下一页
     - toc.integrate
     - content.code.copy
-    - navigation.prune
+    - navigation.prune # 与 - navigation.expand 冲突
 
   markdown_extensions:
     - abbr
