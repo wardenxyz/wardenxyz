@@ -4,7 +4,7 @@
 
 标签页：[tags](docs/tags.md)
 
-> Pin: [Python 学习笔记](<docs/posts/2024/10/python 学习笔记.md>)
+> 📌 Pin: [Python 学习笔记](<docs/posts/2024/10/python 学习笔记.md>)
 
 ## 2024
 

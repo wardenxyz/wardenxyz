@@ -1,11 +1,11 @@
 site_name: 我的文档
 
 nav:
-  - Home: index.md
-  - tags: tags.md
-  - categories: categories.md
-  - about: about.md
-  - posts:
+  - 🏠 Home: index.md
+  - 🔖 tags: tags.md
+  - 🗂️ categories: categories.md
+  - 🤟🏻 about: about.md
+  - 📕 posts:
       - posts/2024/04/GPG 在通信中的简单理解.md
       - posts/2024/04/LaTeX 与希腊字母对照表.md
       - posts/2024/04/ffmpeg 自用命令.md

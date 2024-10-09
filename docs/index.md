@@ -1,6 +1,6 @@
 # 记录{IT、数学、生活}
 
-> Pin: [python 学习笔记](<posts/2024/10/python 学习笔记.md>)
+> 📌 Pin: [python 学习笔记](<posts/2024/10/python 学习笔记.md>)
 
 ## 2024
 
