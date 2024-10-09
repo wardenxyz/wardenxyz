@@ -12,7 +12,7 @@ categories:
 
 ---
 
-#### 查看视频一共有多少帧数
+## 查看视频一共有多少帧数
 
 ```bash
 ffprobe -v error -select_streams v:0 -show_entries stream=nb_frames -of default=nokey=1:noprint_wrappers=1 your_video_file.mp4
@@ -20,7 +20,7 @@ ffprobe -v error -select_streams v:0 -show_entries stream=nb_frames -of default=
 
 ---
 
-#### 提升视频锐度
+## 提升视频锐度
 
 ```bash
 ffmpeg -i input.mp4 -vf "unsharp" output.mp4
@@ -28,7 +28,7 @@ ffmpeg -i input.mp4 -vf "unsharp" output.mp4
 
 ---
 
-#### 提升视频分辨率
+## 提升视频分辨率
 
 ```bash
 ffmpeg -i input.mp4 -vf "scale=3840:2160" output.mp4
@@ -36,7 +36,7 @@ ffmpeg -i input.mp4 -vf "scale=3840:2160" output.mp4
 
 ---
 
-#### 查看视频分辨率
+## 查看视频分辨率
 
 ```bash
 ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=s=x:p=0 video.mp4
@@ -44,7 +44,7 @@ ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=s
 
 ---
 
-#### 查看视频元数据
+## 查看视频元数据
 
 ```bash
 ffprobe -v quiet -print_format json -show_format your_video_file.mp4
@@ -52,7 +52,7 @@ ffprobe -v quiet -print_format json -show_format your_video_file.mp4
 
 ---
 
-#### 把多个视频合并为一个视频
+## 把多个视频合并为一个视频
 
 ```txt
 file 'input3.mp4'
@@ -70,7 +70,7 @@ ffmpeg -f concat -safe 0 -i files.txt -c copy output.mp4
 
 ---
 
-#### 视频转换为不同的格式
+## 视频转换为不同的格式
 
 ```bash
 ffmpeg -i input.mp4 output.avi
@@ -78,7 +78,7 @@ ffmpeg -i input.mp4 output.avi
 
 ---
 
-#### 剪切视频
+## 剪切视频
 
 ```bash
 ffmpeg -i input.mp4 -ss 00:00:30 -t 00:00:10 -c:v libx264 -c:a aac output.mp4
@@ -92,7 +92,7 @@ ffmpeg -i input.mp4 -ss 00:00:30 -t 00:00:10 -c:v libx264 -c:a aac output.mp4
 
 ---
 
-#### 把音频从视频中分离出来
+## 把音频从视频中分离出来
 
 ```bash
 ffmpeg -i input.mp4 -vn output.aac
@@ -102,7 +102,7 @@ ffmpeg -i input.mp4 -vn output.aac
 
 ---
 
-#### 禁用音频，把视频文件分离出来
+## 禁用音频，把视频文件分离出来
 
 ```bash
 ffmpeg -i input.mp4 -an output.mp4
@@ -112,7 +112,7 @@ ffmpeg -i input.mp4 -an output.mp4
 
 ---
 
-#### 改变音频格式
+## 改变音频格式
 
 ```bash
 ffmpeg -i input.mp3 output.aac
@@ -120,7 +120,7 @@ ffmpeg -i input.mp3 output.aac
 
 ---
 
-#### 调整视频的分辨率
+## 调整视频的分辨率
 
 ```bash
 ffmpeg -i input.mp4 -vf "scale=1280:720" output.mp4
@@ -130,7 +130,7 @@ ffmpeg -i input.mp4 -vf "scale=1280:720" output.mp4
 
 ---
 
-#### 添加视频水印
+## 添加视频水印
 
 ```bash
 ffmpeg -i input.mp4 -i watermark.png -filter_complex "overlay=W-w-10:H-h-10" output.mp4
@@ -142,7 +142,7 @@ ffmpeg -i input.mp4 -i watermark.png -filter_complex "overlay=W-w-10:H-h-10" out
 
 ---
 
-#### 转码视频
+## 转码视频
 
 ```bash
 ffmpeg -i input.mp4 -b:v 1000k -b:a 128k output.mp4
@@ -152,7 +152,7 @@ ffmpeg -i input.mp4 -b:v 1000k -b:a 128k output.mp4
 
 ---
 
-#### 倒放视频
+## 倒放视频
 
 ```bash
 ffmpeg -i input.mp4 -vf "reverse" output.mp4
@@ -162,7 +162,7 @@ ffmpeg -i input.mp4 -vf "reverse" output.mp4
 
 ---
 
-#### 录制当前页面视频
+## 录制当前页面视频
 
 - Windows 下：
 
@@ -180,7 +180,7 @@ ffmpeg -f x11grab -video_size 1920x1080 -framerate 30 -i :0.0 output.mp4
 
 ---
 
-#### 视频转换为 gif
+## 视频转换为 gif
 
 ```bash
 ffmpeg -i input.mp4 -vf "fps=10,scale=320:-1:flags=lanczos" -c:v gif output.gif
@@ -195,7 +195,7 @@ ffmpeg -i input.mp4 -vf "fps=10,scale=320:-1:flags=lanczos" -c:v gif output.gif
 
 ---
 
-#### 将 GIF 转换为视频
+## 将 GIF 转换为视频
 
 ```bash
 ffmpeg -i input.gif output.mp4
@@ -203,7 +203,7 @@ ffmpeg -i input.gif output.mp4
 
 ---
 
-#### 查看视频尺寸
+## 查看视频尺寸
 
 ```bash
 ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=s=x:p=0 input.mp4
@@ -221,7 +221,7 @@ ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=s
 
 ---
 
-#### 剪切视频画面
+## 剪切视频画面
 
 ```bash
 ffmpeg -i input.mp4 -filter:v "crop=300:200:10:20" output.mp4
@@ -235,7 +235,7 @@ ffmpeg -i input.mp4 -filter:v "crop=300:200:10:20" output.mp4
 
 ---
 
-#### 调整视频的亮度
+## 调整视频的亮度
 
 ```bash
 ffmpeg -i input.mp4 -vf "eq=brightness=0.1" output.mp4
@@ -249,7 +249,7 @@ ffmpeg -i input.mp4 -vf "eq=brightness=0.1" output.mp4
 
 ---
 
-#### 调整视频的对比度
+## 调整视频的对比度
 
 ```bash
 ffmpeg -i input.mp4 -vf "eq=contrast=1.5" output.mp4
@@ -261,7 +261,7 @@ ffmpeg -i input.mp4 -vf "eq=contrast=1.5" output.mp4
 
 ---
 
-#### 查看图片尺寸
+## 查看图片尺寸
 
 ```bash
 ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=s=x:p=0 image.jpg
@@ -279,7 +279,7 @@ ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=s
 
 ---
 
-#### m4s 的视频用 ffmpeg 转换为 mp3 bilibili
+## m4s 的视频用 ffmpeg 转换为 mp3 bilibili
 
 ```bash
 ffmpeg -i input.m4s -vn -ab 128k output.mp3
@@ -294,7 +294,7 @@ ffmpeg -i input.m4s -vn -ab 128k output.mp3
 
 ---
 
-#### 把 m4s 的视频转换为 mp4 bilibili
+## 把 m4s 的视频转换为 mp4 bilibili
 
 ```bash
 ffmpeg -i input.m4s -codec copy output.mp4
@@ -310,7 +310,7 @@ ffmpeg -i input.m4s -codec copy output.mp4
 
 ---
 
-#### 把视频和音频合并 bilibili
+## 把视频和音频合并 bilibili
 
 ```bash
 ffmpeg -i "your_video" -i "your_audio" -c:a aac -strict experimental "your_video.mp4
@@ -318,7 +318,7 @@ ffmpeg -i "your_video" -i "your_audio" -c:a aac -strict experimental "your_video
 
 ---
 
-#### ffmpeg 降低画质的命令
+## ffmpeg 降低画质的命令
 
 在使用 `ffmpeg` 进行视频处理时，有时需要降低视频的画质以减小文件大小或适应特定的网络传输需求。以下是一些常用的 `ffmpeg` 命令来降低视频画质：
 
@@ -352,14 +352,10 @@ ffmpeg -i "your_video" -i "your_audio" -c:a aac -strict experimental "your_video
    ```
    预设参数控制编码速度和输出质量之间的平衡。`veryslow` 预设会花费更多时间进行编码，但通常能产生更好的压缩效果和更低的文件大小。其他预设有 `ultrafast`, `superfast`, `fast`, `medium`, `slow`, `slower` 等。
 
-#### 查看视频清晰度
+## 查看视频清晰度
 
 ```bash
 ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of default=noprint_wrappers=1 input_video.mp4
 ```
 
 这个命令会打印出视频的清晰度
-
-
-
-

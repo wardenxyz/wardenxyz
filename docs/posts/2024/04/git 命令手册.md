@@ -6,7 +6,7 @@ categories:
 - 计算机
 ---
 
-#### 常用语句
+## 常用语句
 
 ```
 git init                                                  ## 初始化本地git仓库（创建新仓库）
@@ -97,7 +97,7 @@ git gc
 git fsck
 ```
 
-#### 新建仓库
+## 新建仓库
 
 ```
 ## 初始化当前项目
@@ -115,7 +115,7 @@ $ git init --bare <directory>
 $ git clone [url]
 ```
 
-#### git 配置
+## git 配置
 ```
 ## 显示当前的Git配置
 $ git config --list
@@ -137,7 +137,7 @@ $ git config --global alias.<alias-name> <git-command>
 $ git config --system core.editor <editor>
 ```
 
-#### git 状态
+## git 状态
 
 ```
 ## 显示分支，未跟踪文件，更改和其他不同
@@ -147,7 +147,7 @@ $ git status
 $ git help status
 ```
 
-#### git 信息
+## git 信息
 
 ```
 ## 显示commit历史，以及每次commit发生变更的文件
@@ -230,7 +230,7 @@ $ git br --merged
 $ git br --no-merged
 ```
 
-#### git 添加、暂存
+## git 添加、暂存
 
 ```
 ## 添加一个文件
@@ -256,7 +256,7 @@ $ git add .
 $ git add -p
 ```
 
-#### git 删除文件
+## git 删除文件
 
 ```
 ## 移除 HelloWorld.js
@@ -272,7 +272,7 @@ $ git rm [file1] [file2] ...
 $ git rm --cached [file]
 ```
 
-#### 管理分支
+## 管理分支
 
 ```
 ## 查看所有的分支和远程分支
@@ -350,7 +350,7 @@ $ git br -d <branch>
 $ git br -D <branch>
 ```
 
-#### git checkout
+## git checkout
 
 ```
 ## 检出一个版本库，默认将更新到master分支
@@ -361,7 +361,7 @@ $ git checkout branchName
 $ git checkout -b newBranch
 ```
 
-#### 添加远程仓库
+## 添加远程仓库
 
 ```
 ## 下载远程仓库的所有变动
@@ -401,7 +401,7 @@ $ git push [remote] --force
 $ git push [remote] --all
 ```
 
-#### 撤销：
+## 撤销：
 
 ```
 ## 恢复暂存区的指定文件到工作区
@@ -449,7 +449,7 @@ $ git stash apply
 $ git stash drop
 ```
 
-#### 提交 commit
+## 提交 commit
 
 ```
 ## 提交暂存区到仓库区附带提交信息
@@ -472,7 +472,7 @@ $ git commit --amend -m [message]
 $ git commit --amend [file1] [file2] ...
 ```
 
-#### git diff
+## git diff
 
 ```
 ## 显示工作目录和索引的不同
@@ -485,7 +485,7 @@ $ git diff --cached
 $ git diff HEAD
 ```
 
-#### git grep
+## git grep
 
 ```
 可选配置：
@@ -502,7 +502,7 @@ $ git grep 'variableName' -- '*.java'
 $ git grep -e 'arrayListName' --and \( -e add -e remove \)
 ```
 
-#### git log
+## git log
 
 ```
 ## 显示所有提交
@@ -527,7 +527,7 @@ $ git log -p -2
 $ git log --stat
 ```
 
-#### merge
+## merge
 
 ```
 ## 将其他分支合并到当前分支
@@ -538,7 +538,7 @@ $ git merge branchName
 $ git merge --no-ff branchName
 ```
 
-#### mv 重命名或移动一个文件
+## mv 重命名或移动一个文件
 
 ```
 ## 重命名
@@ -555,7 +555,7 @@ $ git mv [file-original] [file-renamed]
 $ git mv -f myFile existingFile
 ```
 
-#### tag
+## tag
 
 ```
 ## 列出所有tag
@@ -586,7 +586,7 @@ $ git push [remote] --tags
 $ git checkout -b [branch] [tag]
 ```
 
-#### push
+## push
 
 ```
 ## 从远端origin的master分支更新版本库
@@ -597,7 +597,7 @@ $ git pull origin master
 $ git pull --no-ff
 ```
 
-#### ci
+## ci
 
 ```
 $ git ci <file>
@@ -609,7 +609,7 @@ $ git ci -am "some comments"
 $ git ci --amend
 ```
 
-#### rebase
+## rebase
 
 ```
 ## 将experimentBranch应用到master上面
@@ -632,7 +632,7 @@ $ git reset dha78as
 $ git reset --hard dha78as
 ```
 
-#### 其他
+## 其他
 
 ```
 ## 生成一个可供发布的压缩包
@@ -647,7 +647,3 @@ $ git apply --check ../sync.patch
 ## 查看Git的版本
 $ git --version
 ```
-
-
-
-

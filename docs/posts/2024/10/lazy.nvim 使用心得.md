@@ -7,7 +7,7 @@ categories:
 - 计算机
 ---
 
-### lazy.nvim 路径探秘
+## lazy.nvim 路径探秘
 
 lazy.nvim 到底在哪个文件夹下，在网上搜到的相关教程中就只有一个 `git clone https://github.com/folke/lazy.nvim.git ~/.config/nvim`，这是在 Unix 环境的配置，但我是 Windows 环境，所以对这个 `~/.config` 路径深恶痛绝，几乎所有的环境配置都叫我克隆到 `~/.config` 路径下，但 Windows 有个屁 `~` 路径，我又搜了半天，就是没有相关的文章说 Windows 下的 `~` 在哪儿，气得我几次放弃 Neovim
 
@@ -21,7 +21,7 @@ lazy.nvim 在 Windows 环境的克隆路径是 `C:\Users\admin\AppData\Local\nvi
 git clone https://github.com/folke/lazy.nvim.git C:\Users\admin\AppData\Local\nvim-data\site\pack\packer\start\lazy.nvim
 ```
 
-### init.lua 路径探秘
+## init.lua 路径探秘
 
 ok，解决了 lazy.nvim 应该克隆到哪个路径下之后，该解决 lazy.nvim 的配置文件 `init.lua` 了，没错，关于这个配置文件，网上又在玩谜语，又是 `~` 路径（请容许我骂娘****）
 
@@ -36,11 +36,11 @@ git clone https://gitee.com/MechCrafter/lazy.nvim.git C:\Users\admin\AppData\Loc
 ```
 （这是我的配置文件，是私有仓库，你拉不下来）
 
-### Neovim 插件路径探秘
+## Neovim 插件路径探秘
 
 知道了前面两个的具体路径，那肯定想要知道这个插件到底下载到哪个路径，所以我找了半天，发现插件路径在 `C:\Users\admin\AppData\Local\nvim-data\lazy` 下，这个里面放的就是你的插件了
 
-### 总结
+## 总结
 
 - lazy.nvim 本体在 `C:\Users\admin\AppData\Local\nvim-data\site\pack\packer\start\lazy.nvim` 下
 
@@ -64,22 +64,18 @@ git clone https://gitee.com/MechCrafter/lazy.nvim.git C:\Users\admin\AppData\Loc
 
 把步骤简化：
 
-### 拉取 lazy.nvim
+## 拉取 lazy.nvim
 
 ```bash
 git clone https://github.com/folke/lazy.nvim.git C:\Users\admin\AppData\Local\nvim-data\site\pack\packer\start\lazy.nvim
 ```
 
-### 拉取配置文件
+## 拉取配置文件
 
 ```bash
 git clone https://gitee.com/MechCrafter/lazy.nvim.git C:\Users\admin\AppData\Local\nvim
 ```
 
-### 下载插件
+## 下载插件
 
 打开 Neovim，lazy.nvim 会自动下载插件，下载完成后，重启 Neovim
-
-
-
-

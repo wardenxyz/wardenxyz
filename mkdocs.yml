@@ -1,9 +1,9 @@
 site_name: 我的文档 # 浏览器标签标题
 nav:
-  - 首页: README.md
+  - Home: index.md
   - tags: tags.md
-  - 分类: categories.md
-  - 关于我: about.md
+  - categories: categories.md
+  - about: about.md
   - posts:
     - posts\2024\04\GPG 在通信中的简单理解.md
     - posts\2024\04\LaTeX 与希腊字母对照表.md
@@ -72,7 +72,7 @@ theme:
     - search.suggest
     - search.highlight
     - header.autohide
-    - navigation.footer # 底部上一页下一页
+    # - navigation.footer # 底部上一页下一页
     # - toc.integrate
     - content.code.copy
   plugins:
@@ -84,6 +84,6 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/wardenxyz
-copyright: Copyright &copy; 2014 wardenxyz
+copyright: Copyright &copy; 2024 wardenxyz
 repo_name: wardenxyz/wardenxyz
 repo_url: https://github.com/wardenxyz/wardenxyz

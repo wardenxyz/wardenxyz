@@ -6,7 +6,7 @@ categories:
 - 计算机
 ---
 
-#### 创建和使用虚拟环境
+## 创建和使用虚拟环境
 
 ```bash
 ## 创建虚拟环境
@@ -36,7 +36,7 @@ pip uninstall -r requirements.txt -y
 deactivate
 ```
 
-#### python 换源
+## python 换源
 
 清华源：
 ```bash
@@ -49,13 +49,13 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 C:\Users\admin\AppData\Roaming\pip\pip.ini
 ```
 
-#### 查看第三方库的位置
+## 查看第三方库的位置
 
 ```bash
 python -m site
 ```
 
-#### 查看指定库的详细信息
+## 查看指定库的详细信息
 
 ```bash
 pip show requests
@@ -74,18 +74,14 @@ Requires: certifi, chardet, idna, urllib3
 Required-by:
 ```
 
-#### 查看 Python 已安装的第三方库
+## 查看 Python 已安装的第三方库
 
 ```bash
 pip list
 ```
 
-#### python 列出依赖库
+## python 列出依赖库
 
 ```bash
 pip freeze > requirements.txt
 ```
-
-
-
-

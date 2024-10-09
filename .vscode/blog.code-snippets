@@ -1,0 +1,106 @@
+{
+    "blog 样板": {
+        "body": [
+            "---",
+            "date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+            "tags:",
+            "- ${1}",
+            "categories:",
+            "- ${2}",
+            "---",
+            "",
+            "${3:文章内容}",
+            "",
+            "$0"
+        ],
+        "description": "blog 样板",
+        "prefix": "post",
+        "scope": "markdown"
+    },
+    "GitHub blockquote": {
+        "body": [
+            "> [${1|!NOTE,!TIP,!IMPORTANT,!WARNING,!CAUTION|}]",
+            "> $2",
+        ],
+        "description": "GFM blockquote",
+        "prefix": "blockquote",
+        "scope": "markdown"
+    },
+    "mark 高亮标记": {
+        "body": "<mark>$1</mark>$0",
+        "description": "mark 高亮标记",
+        "prefix": "mark",
+        "scope": "markdown"
+    },
+    "拼音": {
+        "body": "<ruby>${1:字}<rt>${2:拼音}</rt></ruby>$0",
+        "description": "拼音",
+        "prefix": "pinyin",
+        "scope": "markdown"
+    },
+    "上标": {
+        "body": "<sup>$1</sup>$0",
+        "description": "上标",
+        "prefix": "sup",
+        "scope": "markdown"
+    },
+    "下标": {
+        "body": "<sub>$1</sub>$0",
+        "description": "下标",
+        "prefix": "sub",
+        "scope": "markdown"
+    },
+    "哭脸表情": {
+        "body": "😭",
+        "description": "哭脸表情",
+        "prefix": "cry",
+        "scope": "markdown"
+    },
+    "嘻嘻表情": {
+        "body": "😁",
+        "description": "嘻嘻表情",
+        "prefix": "hehe",
+        "scope": "markdown"
+    },
+    "joker": {
+        "body": "🤡",
+        "description": "小丑表情",
+        "prefix": "joker",
+        "scope": "markdown"
+    },
+    "笑脸表情": {
+        "body": "😊",
+        "description": "笑脸表情",
+        "prefix": "smile",
+        "scope": "markdown"
+    },
+    "难过表情": {
+        "body": "😔",
+        "description": "难过表情",
+        "prefix": "sad",
+        "scope": "markdown"
+    },
+    "鼓掌表情": {
+        "body": "👏",
+        "description": "鼓掌表情",
+        "prefix": "clap",
+        "scope": "markdown"
+    },
+    "拉炮彩带表情": {
+        "body": "🎉",
+        "description": "拉炮彩带表情",
+        "prefix": "tada",
+        "scope": "markdown"
+    },
+    "命令块": {
+        "body": [
+            "```bash",
+            "$1",
+            "```",
+            "$0"
+        ],
+        "description": "拉炮彩带表情",
+        "prefix": "bash",
+        "scope": "markdown"
+    },
+}

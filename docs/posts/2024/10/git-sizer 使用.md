@@ -6,7 +6,7 @@ categories:
 - 计算机
 ---
 
-### git-sizer 命令输出
+## git-sizer 命令输出
 
 ```bash
 $ git-sizer --verbose
@@ -69,11 +69,11 @@ Processing references: 2
 [8]  78bdd67d7e37b0f4a8af0f6009236ef2270a7288 (f84cb9d396b1d2297dddea27dc72d6ed252f33cd^{tree})
 ```
 
-### 输出解释
+## 输出解释
 
 从 `git-sizer` 的输出中可以看出，你的 Git 仓库的整体大小和结构信息。以下是一些关键点的解释：
 
-#### 仓库整体大小
+### 仓库整体大小
 - Commits（提交）:
   - Count（数量）: 513
   - Total size（总大小）: 148 KiB
@@ -95,7 +95,7 @@ Processing references: 2
   - Branches（分支）: 1
   - Remote-tracking refs（远程跟踪引用）: 1
 
-#### 最大对象
+### 最大对象
 - Commits（提交）:
   - Maximum size（最大大小）: 1.97 KiB
   - Maximum parents（最大父级数量）: 1
@@ -106,11 +106,11 @@ Processing references: 2
 - Blobs（文件对象）:
   - Maximum size（最大大小）: 3.79 MiB
 
-#### 历史结构
+### 历史结构
 - Maximum history depth（最大历史深度）: 513
 - Maximum tag depth（最大标签深度）: 0
 
-#### 最大检出
+### 最大检出
 - Number of directories（目录数量）: 25
 - Maximum path depth（最大路径深度）: 5
 - Maximum path length（最大路径长度）: 73 B
@@ -119,7 +119,7 @@ Processing references: 2
 - Number of symlinks（符号链接数量）: 0
 - Number of submodules（子模块数量）: 0
 
-#### 具体对象
+### 具体对象
 - [1]: 最大提交大小的对象 ID 是 `314be6877a8519aba4e703f2fdc7a9d540b441db`
 - [2]: 最大父级数量的提交 ID 是 `6a930f6bb128b4e023b5d40f4ec284650441cb19`（分支 `main`）
 - [3]: 最大条目数的树对象 ID 是 `70871672fc82c0697bb8a9e1d8ee78cc48940779`
@@ -131,28 +131,28 @@ Processing references: 2
 
 这些信息可以帮助你了解仓库的大小和结构，识别可能需要优化的部分。
 
-### 哪些部分需要优化
+## 哪些部分需要优化
 
 根据 `git-sizer` 的输出，以下是一些可能需要优化的部分：
 
-#### 1. Blobs（文件对象）
+### 1. Blobs（文件对象）
 - 最大文件对象大小: 3.79 MiB
   - 文件路径: `assets/文件.pdf`
   - 大文件可能会导致仓库克隆和操作变慢。你可以考虑将大文件移到 Git LFS（Large File Storage）或其他外部存储解决方案。
 
-#### 2. 总文件大小
+### 2. 总文件大小
 - 文件总大小: 20.6 MiB
   - 如果仓库中有很多大文件，可能会影响性能。你可以检查哪些文件占用了大量空间，并考虑是否可以将它们移到外部存储。
 
-#### 3. 树对象
+### 3. 树对象
 - 最大条目数: 126
   - 树对象中的条目数较多，可能会影响性能。你可以检查这些目录，看看是否可以简化目录结构或减少文件数量。
 
-#### 4. 提交历史
+### 4. 提交历史
 - 最大历史深度: 513
   - 提交历史较深，可能会影响性能。你可以考虑使用 `git rebase` 或 `git filter-branch` 来简化历史记录。
 
-#### 具体优化建议：
+### 具体优化建议：
 
 1. 使用 Git LFS:
    - 对于大文件（如 PDF、图像、视频等），可以使用 Git LFS 来存储它们。这样可以减少仓库的大小，提高性能。
@@ -184,7 +184,3 @@ Processing references: 2
    - 例如，将相关文件合并到一个目录中，减少目录层级。
 
 通过这些优化措施，你可以减少仓库的大小，提高操作性能。
-
-
-
-

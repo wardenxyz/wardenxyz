@@ -7,7 +7,7 @@ categories:
 - 计算机
 ---
 
-#### 加解密命令
+## 加解密命令
 
 加密命令：
 
@@ -69,7 +69,7 @@ openssl enc -d -p -aes-256-cbc -pbkdf2 -iter 20000 -pass pass:somepassword -in .
 
 ---
 
-#### 用文件密钥加密
+## 用文件密钥加密
 
 OpenSSL 的 `enc` 命令不直接支持同时使用密码和密钥文件进行加密
 
@@ -97,7 +97,7 @@ openssl enc -aes-256-cbc -pbkdf2 -d -in ciphertext.bin -out plaintext.txt -pass 
 
 注意，这只是一个示例。实际使用时，你应该根据你的具体需求和环境选择合适的加密算法和密钥派生函数，并妥善保管你的密钥。
 
-#### 生成一个包含随机数据的二进制文件
+## 生成一个包含随机数据的二进制文件
 
 你可以使用OpenSSL的`rand`命令来生成一个无意义的二进制文件。以下是一个示例：
 
@@ -127,7 +127,7 @@ openssl rand -out random.bin 1048576
 
 ---
 
-#### OpenSSL 检测哈希值
+## OpenSSL 检测哈希值
 
 在 OpenSSL 中，你可以使用 `dgst` 命令来计算文件的哈希值。以下是具体的步骤：
 
@@ -147,7 +147,7 @@ openssl dgst -sha256 filename
 
 ---
 
-#### 生成 RSA 密钥
+## 生成 RSA 密钥
 
 在 OpenSSL 中，你可以使用以下的命令来生成 RSA 密钥对：
 
@@ -166,7 +166,7 @@ openssl rsa -pubout -in private_key.pem -out public_key.pem
 
 ---
 
-#### OpenSSL 支持哪些算法，全部列出来
+## OpenSSL 支持哪些算法，全部列出来
 
 OpenSSL 支持多种加密算法，包括对称加密算法、非对称加密算法和哈希函数。你可以使用以下的命令来列出 OpenSSL 支持的所有算法：
 
@@ -189,7 +189,3 @@ OpenSSL 支持多种加密算法，包括对称加密算法、非对称加密算
     ```
 
 这些命令会列出 OpenSSL 支持的所有对应类型的算法。请注意，可用的算法可能会根据你的 OpenSSL 版本和配置有所不同。
-
-
-
-

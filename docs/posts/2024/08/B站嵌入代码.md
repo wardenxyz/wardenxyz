@@ -6,7 +6,7 @@ categories:
 - 计算机
 ---
 
-#### 正常显示
+## 正常显示
 
 在
 
@@ -19,7 +19,7 @@ categories:
 <iframe src="https://player.bilibili.com
 ```
 
-#### 修改屏幕尺寸
+## 修改屏幕尺寸
 
 ```
 style="width:100%;aspect-ratio:16/9;"
@@ -29,7 +29,7 @@ style="width:100%;aspect-ratio:16/9;"
 <iframe src="//player.bilibili.com/player.html?aid=425938140&bvid=BV1G3411M7BN&cid=584177306&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width:100%;aspect-ratio:16/9;"></iframe>
 ```
 
-#### 禁止自动播放
+## 禁止自动播放
 
 如果不修改代码，会在打开文章页面的时候，视频就会直接自动从头开始播放，突然的声音可能带来不必要的惊吓，并且会让访问者错过开头，显得很突兀。
 
