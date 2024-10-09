@@ -12,6 +12,7 @@ jobs:
     steps:
     - name: 检出仓库
       uses: actions/checkout@v4
+
     - name: 设置 Python 环境
       uses: actions/setup-python@v5
       with:
@@ -22,13 +23,19 @@ jobs:
         python -m pip install --upgrade pip
         pip install mkdocs mkdocs-material
 
-    - name: Build MkDocs site
+    - name: 构建 MkDocs
       run: mkdocs build
 
-    - name: 把 site 文件夹推送到 GitHub Pages 仓库
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        personal_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./site
-        user_name: GitHub Actions
-        user_email: actions@github.com
+    - name: 复制生成的文件到根目录
+      run: |
+        cp -r site/* .
+
+    - name: 提交并推送更改
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+        git add .
+        git commit -m "Deploy MkDocs site - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+        git push origin main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
