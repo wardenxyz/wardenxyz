@@ -6,42 +6,43 @@ nav:
   - categories: categories.md
   - about: about.md
   - posts:
-    - posts/2024/04/GPG 在通信中的简单理解.md
-    - posts/2024/04/LaTeX 与希腊字母对照表.md
-    - posts/2024/04/ffmpeg 自用命令.md
-    - posts/2024/04/git 分支操作.md
-    - posts/2024/04/git 命令手册.md
-    - posts/2024/04/git-crypt 官方文档.md
-    - posts/2024/04/git-crypt 教程.md
-    - posts/2024/04/obsidian快捷键.md
-    - posts/2024/04/vim 学习笔记.md
-    - posts/2024/04/vscode.md
-    - posts/2024/04/彻底从 git 提交中移除文件.md
-    - posts/2024/04/手机QQ文件存储路径.md
-    - posts/2024/04/正则表达式教程.md
-    - posts/2024/04/浏览器UA值.md
-    - posts/2024/04/现代加密学.md
-    - posts/2024/04/神秘博士复活时间表.md
-    - posts/2024/04/第三方邮箱客户端配置QQmail & Foxmail.md
-    - posts/2024/04/适合做网名的英文单词.md
-    - posts/2024/05/vscode snippets 预置变量.md
-    - posts/2024/05/删除右键菜单.md
-    - posts/2024/06/README 文档结构.md
-    - posts/2024/06/git commit message 规范.md
-    - posts/2024/07/git-crypt 官方文档中文翻译.md
-    - posts/2024/08/B站嵌入代码.md
-    - posts/2024/08/一个台湾网友的自白.md
-    - posts/2024/08/个人自用软件.md
-    - posts/2024/08/用 you-get 下载B站视频.md
-    - posts/2024/09/git 强制覆盖本地仓库.md
-    - posts/2024/09/职业规划培训.md
-    - posts/2024/10/Linux 学习笔记.md
-    - posts/2024/10/OpenSSL 加解密学习笔记.md
-    - posts/2024/10/git-sizer 使用.md
-    - posts/2024/10/lazy.nvim 使用心得.md
-    - posts/2024/10/python 学习笔记.md
-    - posts/2024/10/多服务共享单一域名的奥秘.md
-    - posts/2024/10/GitHub page 搭建学习笔记.md
+      - posts/2024/04/GPG 在通信中的简单理解.md
+      - posts/2024/04/LaTeX 与希腊字母对照表.md
+      - posts/2024/04/ffmpeg 自用命令.md
+      - posts/2024/04/git 分支操作.md
+      - posts/2024/04/git 命令手册.md
+      - posts/2024/04/git-crypt 官方文档.md
+      - posts/2024/04/git-crypt 教程.md
+      - posts/2024/04/obsidian快捷键.md
+      - posts/2024/04/vim 学习笔记.md
+      - posts/2024/04/vscode.md
+      - posts/2024/04/彻底从 git 提交中移除文件.md
+      - posts/2024/04/手机QQ文件存储路径.md
+      - posts/2024/04/正则表达式教程.md
+      - posts/2024/04/浏览器UA值.md
+      - posts/2024/04/现代加密学.md
+      - posts/2024/04/神秘博士复活时间表.md
+      - posts/2024/04/第三方邮箱客户端配置QQmail & Foxmail.md
+      - posts/2024/04/适合做网名的英文单词.md
+      - posts/2024/05/vscode snippets 预置变量.md
+      - posts/2024/05/删除右键菜单.md
+      - posts/2024/06/README 文档结构.md
+      - posts/2024/06/git commit message 规范.md
+      - posts/2024/07/git-crypt 官方文档中文翻译.md
+      - posts/2024/08/B站嵌入代码.md
+      - posts/2024/08/一个台湾网友的自白.md
+      - posts/2024/08/个人自用软件.md
+      - posts/2024/08/用 you-get 下载B站视频.md
+      - posts/2024/09/git 强制覆盖本地仓库.md
+      - posts/2024/09/职业规划培训.md
+      - posts/2024/10/Linux 学习笔记.md
+      - posts/2024/10/OpenSSL 加解密学习笔记.md
+      - posts/2024/10/git-sizer 使用.md
+      - posts/2024/10/lazy.nvim 使用心得.md
+      - posts/2024/10/python 学习笔记.md
+      - posts/2024/10/多服务共享单一域名的奥秘.md
+      - posts/2024/10/GitHub page 搭建学习笔记.md
+
 theme:
   logo: assets/logo.png # 页面内图标
   favicon: images/favicon.png # 浏览器标签图标
@@ -49,16 +50,22 @@ theme:
   name: material
   palette:
     # 浅色模式的调色板切换
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: indigo
       toggle:
-        icon: material/brightness-7
-        name: 切换到暗黑模式
+        icon: material/weather-sunny
+        name: 切换到深色模式
 
-    # 深色模式的调色板切换
-    - scheme: slate
+      # 深色模式的调色板切换
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
       toggle:
-        icon: material/brightness-4
-        name: 切换到明亮模式
+        icon: material/weather-night
+        name: 切换到浅色模式
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -80,17 +87,27 @@ theme:
     - navigation.prune
 
   markdown_extensions:
-  - toc:
+    - abbr
+    - admonition
+    - attr_list
+    - def_list
+    - footnotes
+    - md_in_html
+    - toc:
       permalink: true
+    - pymdownx.arithmatex:
+        generic: true
+
   plugins:
     - search
-    # - social
   icon:
     repo: fontawesome/brands/github
+
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/wardenxyz
+
 copyright: Copyright &copy; 2024 wardenxyz
 repo_name: wardenxyz/wardenxyz
 repo_url: https://github.com/wardenxyz/wardenxyz
