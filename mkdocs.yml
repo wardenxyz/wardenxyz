@@ -104,6 +104,9 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 plugins:
   - search
