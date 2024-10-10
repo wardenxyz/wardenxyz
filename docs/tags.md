@@ -31,10 +31,6 @@
 - [现代加密学](<2024/04/现代加密学.md>)
 - [OpenSSL 加解密学习笔记](<2024/10/OpenSSL 加解密学习笔记.md>)
 
-### 希腊字母
-
-- [LaTeX 与希腊字母对照表](<2024/04/LaTeX 与希腊字母对照表.md>)
-
 ### LaTeX
 
 - [LaTeX 与希腊字母对照表](<2024/04/LaTeX 与希腊字母对照表.md>)
@@ -43,9 +39,10 @@
 
 - [obsidian快捷键](<2024/04/obsidian快捷键.md>)
 
-### Vim
+### vim
 
 - [vim 学习笔记](<2024/04/vim 学习笔记.md>)
+- [lazy.nvim 使用心得](<2024/10/lazy.nvim 使用心得.md>)
 
 ### vscode
 
@@ -90,6 +87,7 @@
 ### GitHub
 
 - [README 文档结构](<2024/06/README 文档结构.md>)
+- [GitHub page 搭建学习笔记](<2024/10/GitHub page 搭建学习笔记.md>)
 
 ### B站
 
@@ -108,14 +106,6 @@
 ### 职业规划
 
 - [职业规划培训](<2024/09/职业规划培训.md>)
-
-### GitHub page
-
-- [GitHub page 搭建学习笔记](<2024/10/GitHub page 搭建学习笔记.md>)
-
-### nvim
-
-- [lazy.nvim 使用心得](<2024/10/lazy.nvim 使用心得.md>)
 
 ### lazy.nvim
 

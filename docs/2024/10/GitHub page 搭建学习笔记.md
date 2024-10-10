@@ -1,7 +1,7 @@
 ---
 date: 2024-10-09
 tags:
-- GitHub page
+- GitHub
 categories:
 - 计算机
 ---

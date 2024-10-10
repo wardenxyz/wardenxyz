@@ -1,7 +1,7 @@
 ---
 date: 2024-04-08
 tags:
-- Vim
+- vim
 categories:
 - 计算机
 ---

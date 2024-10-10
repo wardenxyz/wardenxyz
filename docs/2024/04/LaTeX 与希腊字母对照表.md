@@ -1,7 +1,6 @@
 ---
 date: 2024-04-08
 tags:
-- 希腊字母
 - LaTeX
 categories:
 - 数学
@@ -33,7 +32,3 @@ categories:
 | χ        | Χ        | Chi     | `$\chi$`                      | χ \\chi χ                       | `$\Chi$`        | X \\Chi X           |
 | ψ        | Ψ        | Psi     | `$\psi$`                      | ψ \\psi ψ                       | `$\Psi$`        | Ψ \\Psi Ψ           |
 | ω        | Ω        | Omega   | `$\omega$`                    | ω \\omega ω                     | `$\Omega$`      | Ω \\Omega Ω         |
-
-
-
-
