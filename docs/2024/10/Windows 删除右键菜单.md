@@ -11,7 +11,7 @@ categories:
 
 以下是删除 visual studio 的右键菜单演示
 
-![删除右键菜单](../../../assets/删除右键菜单.webp)
+![alt text](../../assets/删除右键菜单.webp)
 
 快速复制抵达：
 
