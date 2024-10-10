@@ -100,6 +100,10 @@ markdown_extensions:
       permalink_title: 此处的链接，右键可复制
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
 
 plugins:
   - search
@@ -108,6 +112,10 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/wardenxyz
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 copyright: Copyright &copy; 2024 wardenxyz
 repo_name: wardenxyz/wardenxyz
