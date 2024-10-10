@@ -87,12 +87,14 @@ theme:
     - toc.integrate
     - content.code.copy
     - navigation.prune # 与 - navigation.expand 冲突
+    - content.action.view
+  icon:
+    - material/eye
 
 markdown_extensions:
   - abbr
   - admonition
   - attr_list
-  - def_list
   - footnotes
   - md_in_html
   - toc:
