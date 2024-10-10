@@ -4,7 +4,7 @@ nav:
   - 首页: index.md
   - 标签: tags.md
   - 分类: categories.md
-  - 关于我: about.md
+  - 关于本站: about.md
   - 帖子:
       - posts/2024/04/GPG 在通信中的简单理解.md
       - posts/2024/04/LaTeX 与希腊字母对照表.md
@@ -12,7 +12,6 @@ nav:
       - posts/2024/04/git 分支操作.md
       - posts/2024/04/git 命令手册.md
       - posts/2024/04/git-crypt 官方文档.md
-      - posts/2024/04/生成 GPG 密钥.md
       - posts/2024/04/obsidian快捷键.md
       - posts/2024/04/vim 学习笔记.md
       - posts/2024/04/vscode.md
