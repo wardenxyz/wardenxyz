@@ -125,3 +125,4 @@ extra_javascript:
 copyright: Copyright &copy; 2024 wardenxyz
 repo_name: wardenxyz/wardenxyz
 repo_url: https://github.com/wardenxyz/wardenxyz
+edit_uri: edit/main/docs/ # 右上角查看源页面的链接
