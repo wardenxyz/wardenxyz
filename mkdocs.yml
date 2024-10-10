@@ -43,6 +43,7 @@ nav:
       - posts/2024/10/GitHub page 搭建学习笔记.md
       - posts/2024/10/git-crypt 学习笔记.md
       - posts/2024/10/生成 GPG 密钥.md
+      - posts/2024/10/Windows 删除右键菜单.md
 
 theme:
   logo: assets/logo.png # 页面内图标

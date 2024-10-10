@@ -8,6 +8,7 @@
 
 ### 十月
 
+- [Windows 删除右键菜单](<posts/2024/10/Windows 删除右键菜单.md>)
 - [git-crypt 学习笔记](<posts/2024/10/git-crypt 学习笔记.md>)
 - [生成 GPG 密钥](<posts/2024/10/生成 GPG 密钥.md>)
 - [GitHub page 搭建学习笔记](<posts/2024/10/GitHub page 搭建学习笔记.md>)
