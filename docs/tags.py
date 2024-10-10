@@ -39,10 +39,14 @@ def write_tags_to_file(tags_dict, output_file):
                 file.write(f"- [{post[2]}](<{post[1]}>)\n")
             file.write("\n")
 
-# 使用示例
-root_directory = os.path.dirname(os.path.abspath(__file__))
-posts_directory = os.path.join(root_directory, "posts")
-output_file = os.path.join(root_directory, "tags.md")
+def main(posts_directory, output_file):
+    root_directory = os.path.dirname(os.path.abspath(__file__))
+    tags_dict = collect_posts_by_tag(posts_directory, root_directory)
+    write_tags_to_file(tags_dict, output_file)
 
-tags_dict = collect_posts_by_tag(posts_directory, root_directory)
-write_tags_to_file(tags_dict, output_file)
+if __name__ == "__main__":
+    # 自定义 posts_directory 和 output_file
+    custom_posts_directory = r"docs" # 自定义扫描目录
+    custom_output_file = r"docs\tags.md" # 自定义输出文件
+
+    main(custom_posts_directory, custom_output_file)
