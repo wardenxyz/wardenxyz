@@ -11,7 +11,6 @@
 - [手机QQ文件存储路径](<posts/2024/04/手机QQ文件存储路径.md>)
 - [正则表达式教程](<posts/2024/04/正则表达式教程.md>)
 - [浏览器UA值](<posts/2024/04/浏览器UA值.md>)
-- [生成 GPG 密钥](<posts/2024/04/生成 GPG 密钥.md>)
 - [vscode snippets 预置变量](<posts/2024/05/vscode snippets 预置变量.md>)
 - [删除右键菜单](<posts/2024/05/删除右键菜单.md>)
 - [git commit message 规范](<posts/2024/06/git commit message 规范.md>)
@@ -29,6 +28,7 @@
 - [OpenSSL 加解密学习笔记](<posts/2024/10/OpenSSL 加解密学习笔记.md>)
 - [python 学习笔记](<posts/2024/10/python 学习笔记.md>)
 - [多服务共享单一域名的奥秘](<posts/2024/10/多服务共享单一域名的奥秘.md>)
+- [生成 GPG 密钥](<posts/2024/10/生成 GPG 密钥.md>)
 
 ### 数学
 
