@@ -1,4 +1,6 @@
-# 记录{IT、数学、生活}
+# 学习笔记
+
+本站的 markdown 源码在：[wardenxyz](https://github.com/wardenxyz/wardenxyz)
 
 > 📌 Pin: [python 学习笔记](<posts/2024/10/python 学习笔记.md>)
 

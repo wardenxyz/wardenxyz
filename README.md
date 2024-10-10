@@ -1,4 +1,4 @@
-# 记录{IT、数学、生活}
+# 学习笔记
 
 分类页面：[categories](docs/categories.md)
 
