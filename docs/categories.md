@@ -20,7 +20,7 @@
 - [个人自用软件](<posts/2024/08/个人自用软件.md>)
 - [用 you-get 下载B站视频](<posts/2024/08/用 you-get 下载B站视频.md>)
 - [git 强制覆盖本地仓库](<posts/2024/09/git 强制覆盖本地仓库.md>)
-- [git-crypt 教程](<posts/2024/10/git-crypt 教程.md>)
+- [git-crypt 学习笔记](<posts/2024/10/git-crypt 学习笔记.md>)
 - [git-sizer 使用](<posts/2024/10/git-sizer 使用.md>)
 - [GitHub page 搭建学习笔记](<posts/2024/10/GitHub page 搭建学习笔记.md>)
 - [lazy.nvim 使用心得](<posts/2024/10/lazy.nvim 使用心得.md>)

@@ -42,7 +42,8 @@ nav:
       - posts/2024/10/python 学习笔记.md
       - posts/2024/10/多服务共享单一域名的奥秘.md
       - posts/2024/10/GitHub page 搭建学习笔记.md
-      - posts/2024/10/git-crypt 教程.md
+      - posts/2024/10/git-crypt 学习笔记.md
+      - posts/2024/10/生成 GPG 密钥.md
 
 theme:
   logo: assets/logo.png # 页面内图标

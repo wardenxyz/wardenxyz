@@ -8,8 +8,8 @@
 
 ### 十月
 
+- [git-crypt 学习笔记](<posts/2024/10/git-crypt 学习笔记.md>)
 - [生成 GPG 密钥](<posts/2024/10/生成 GPG 密钥.md>)
-- [git-crypt 教程](<posts/2024/10/git-crypt 教程.md>)
 - [GitHub page 搭建学习笔记](<posts/2024/10/GitHub page 搭建学习笔记.md>)
 - [多服务共享单一域名的奥秘](posts/2024/10/多服务共享单一域名的奥秘.md)
 - [Linux 学习笔记](<posts/2024/10/Linux 学习笔记.md>)
