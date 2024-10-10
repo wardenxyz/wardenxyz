@@ -1,7 +1,7 @@
 ---
 date: 2024-07-01
 tags:
-- GPG
+- git-crypt
 - git
 categories:
 - 计算机

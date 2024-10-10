@@ -10,6 +10,7 @@
 
 ### 十月
 
+- [git-crypt 教程](<docs/posts/2024/10/git-crypt 教程.md>)
 - [GitHub page 搭建学习笔记](<docs/posts/2024/10/GitHub page 搭建学习笔记.md>)
 - [多服务共享单一域名的奥秘](docs/posts/2024/10/多服务共享单一域名的奥秘.md)
 - [Linux 学习笔记](docs/posts/2024/10/Linux%20学习笔记.md)
@@ -50,7 +51,7 @@
 - [git 分支操作](<docs/posts/2024/04/git 分支操作.md>)
 - [git 命令手册](<docs/posts/2024/04/git 命令手册.md>)
 - [git-crypt 官方文档](<docs/posts/2024/04/git-crypt 官方文档.md>)
-- [git-crypt 教程](<docs/posts/2024/04/git-crypt 教程.md>)
+- [git-crypt 教程](<docs/posts/2024/04/生成 GPG 密钥.md>)
 - [GPG 在通信中的简单理解](<docs/posts/2024/04/GPG 在通信中的简单理解.md>)
 - [LaTeX 与希腊字母对照表](<docs/posts/2024/04/LaTeX 与希腊字母对照表.md>)
 - [obsidian快捷键](<docs/posts/2024/04/obsidian快捷键.md>)

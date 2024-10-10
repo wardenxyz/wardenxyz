@@ -7,19 +7,23 @@
 - [git 分支操作](<posts/2024/04/git 分支操作.md>)
 - [git 命令手册](<posts/2024/04/git 命令手册.md>)
 - [git-crypt 官方文档](<posts/2024/04/git-crypt 官方文档.md>)
-- [git-crypt 教程](<posts/2024/04/git-crypt 教程.md>)
 - [彻底从 git 提交中移除文件](<posts/2024/04/彻底从 git 提交中移除文件.md>)
 - [git commit message 规范](<posts/2024/06/git commit message 规范.md>)
 - [git-crypt 官方文档中文翻译](<posts/2024/07/git-crypt 官方文档中文翻译.md>)
 - [git 强制覆盖本地仓库](<posts/2024/09/git 强制覆盖本地仓库.md>)
+- [git-crypt 教程](<posts/2024/10/git-crypt 教程.md>)
 - [git-sizer 使用](<posts/2024/10/git-sizer 使用.md>)
+
+### git-crypt
+
+- [git-crypt 官方文档](<posts/2024/04/git-crypt 官方文档.md>)
+- [git-crypt 官方文档中文翻译](<posts/2024/07/git-crypt 官方文档中文翻译.md>)
+- [git-crypt 教程](<posts/2024/10/git-crypt 教程.md>)
 
 ### GPG
 
-- [git-crypt 官方文档](<posts/2024/04/git-crypt 官方文档.md>)
-- [git-crypt 教程](<posts/2024/04/git-crypt 教程.md>)
 - [GPG 在通信中的简单理解](<posts/2024/04/GPG 在通信中的简单理解.md>)
-- [git-crypt 官方文档中文翻译](<posts/2024/07/git-crypt 官方文档中文翻译.md>)
+- [生成 GPG 密钥](<posts/2024/04/生成 GPG 密钥.md>)
 
 ### 加密
 

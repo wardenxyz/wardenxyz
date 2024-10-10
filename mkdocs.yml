@@ -12,7 +12,7 @@ nav:
       - posts/2024/04/git 分支操作.md
       - posts/2024/04/git 命令手册.md
       - posts/2024/04/git-crypt 官方文档.md
-      - posts/2024/04/git-crypt 教程.md
+      - posts/2024/04/生成 GPG 密钥.md
       - posts/2024/04/obsidian快捷键.md
       - posts/2024/04/vim 学习笔记.md
       - posts/2024/04/vscode.md
@@ -42,6 +42,7 @@ nav:
       - posts/2024/10/python 学习笔记.md
       - posts/2024/10/多服务共享单一域名的奥秘.md
       - posts/2024/10/GitHub page 搭建学习笔记.md
+      - posts/2024/10/git-crypt 教程.md
 
 theme:
   logo: assets/logo.png # 页面内图标
@@ -86,22 +87,20 @@ theme:
     - content.code.copy
     - navigation.prune # 与 - navigation.expand 冲突
 
-  markdown_extensions:
-    - abbr
-    - admonition
-    - attr_list
-    - def_list
-    - footnotes
-    - md_in_html
-    - toc:
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
       permalink: true
-    - pymdownx.arithmatex:
-        generic: true
+  - pymdownx.arithmatex:
+      generic: true
 
-  plugins:
-    - search
-  icon:
-    repo: fontawesome/brands/github
+plugins:
+  - search
 
 extra:
   social:

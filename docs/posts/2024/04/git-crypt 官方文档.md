@@ -1,11 +1,13 @@
 ---
 date: 2024-04-08
 tags:
-- GPG
+- git-crypt
 - git
 categories:
 - 计算机
 ---
+
+> [原文档](https://github.com/AGWA/git-crypt/blob/master/README.md)
 
 ## git -crypt - transparent file encryption in git
 
