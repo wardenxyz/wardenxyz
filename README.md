@@ -45,7 +45,6 @@
 ### 五月
 
 - [vscode snippets 预置变量](<docs/2024/05/vscode snippets 预置变量.md>)
-- [删除右键菜单](<docs/2024/05/删除右键菜单.md>)
 
 ### 四月
 

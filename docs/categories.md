@@ -13,7 +13,6 @@
 - [浏览器UA值](<2024/04/浏览器UA值.md>)
 - [现代加密学](<2024/04/现代加密学.md>)
 - [vscode snippets 预置变量](<2024/05/vscode snippets 预置变量.md>)
-- [删除右键菜单](<2024/05/删除右键菜单.md>)
 - [git commit message 规范](<2024/06/git commit message 规范.md>)
 - [README 文档结构](<2024/06/README 文档结构.md>)
 - [git-crypt 官方文档中文翻译](<2024/07/git-crypt 官方文档中文翻译.md>)
