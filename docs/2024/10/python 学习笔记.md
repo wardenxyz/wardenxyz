@@ -1,0 +1,89 @@
+---
+date: 2024-10-06
+tags:
+- python
+categories:
+- 计算机
+---
+
+# python 学习笔记
+
+## 创建和使用虚拟环境
+
+```bash
+## 创建虚拟环境
+python -m venv venv
+
+## 激活虚拟环境
+.\venv\Scripts\activate  ## Windows
+## 或者
+source venv/bin/activate  ## macOS 和 Linux
+
+## 安装第三方库
+pip install requests
+
+## 卸载第三方库
+pip uninstall requests
+
+## 生成依赖文件
+pip freeze > requirements.txt
+
+## 根据依赖文件下载第三方库
+pip install -r requirements.txt
+
+## 根据依赖文件卸载第三方库
+pip uninstall -r requirements.txt -y
+
+## 停用虚拟环境
+deactivate
+```
+
+## python 换源
+
+清华源：
+```bash
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+查看源
+
+```bash
+C:\Users\admin\AppData\Roaming\pip\pip.ini
+```
+
+## 查看第三方库的位置
+
+```bash
+python -m site
+```
+
+## 查看指定库的详细信息
+
+```bash
+pip show requests
+```
+
+```bash
+Name: requests
+Version: 2.25.1
+Summary: Python HTTP for Humans.
+Home-page: https://requests.readthedocs.io
+Author: Kenneth Reitz
+Author-email: me@kennethreitz.org
+License: Apache 2.0
+Location: /path/to/your/env/lib/python3.8/site-packages
+Requires: certifi, chardet, idna, urllib3
+Required-by:
+```
+
+## 查看 Python 已安装的第三方库
+
+```bash
+pip list
+```
+
+## python 列出依赖库
+
+```bash
+pip freeze > requirements.txt
+```

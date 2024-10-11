@@ -1,0 +1,50 @@
+name: Deploy MkDocs to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 检出仓库
+      uses: actions/checkout@v4
+
+    - name: 设置 Node.js 环境
+      uses: actions/setup-node@v3
+      with:
+        node-version: '>=20.18.0'
+
+    - name: 下载依赖
+      run: |
+        npm install
+
+    - name: 构建 vitepress
+      run: npm run docs:build
+
+    - name: 设置 SSH 密钥
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+    - name: 克隆目标仓库
+      run: |
+        git clone git@github.com:wardenxyz/wardenxyz.github.io.git target_repo
+
+    - name: 复制生成的文件到目标仓库
+      run: |
+        cp -r docs/.vitepress/dist/* target_repo/
+
+    - name: 提交并推送更改到目标仓库
+      run: |
+        cd target_repo
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+        git add .
+        git commit -m "Deploy - $(date -u '+%Y-%m-%d %H:%M:%S' -d '8 hour')"
+        git push origin main
