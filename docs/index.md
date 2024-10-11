@@ -29,7 +29,7 @@ features:
   - title: 2024 年 6 月
     link: /2024/06/git commit message 规范
   - title: 2024 年 5 月
-    link: /2024/05/删除右键菜单.md
+    link: /2024/05/vscode snippets 预置变量
   - title: 2024 年 4 月
     link: /2024/04/彻底从 git 提交中移除文件
 ---
