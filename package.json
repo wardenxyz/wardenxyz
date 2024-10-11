@@ -1,12 +1,9 @@
 {
   "devDependencies": {
-    "vitepress": "^1.4.0"
-  },
-  "dependencies": {
-    "@mermaid-js/mermaid-mindmap": "^9.3.0",
     "markdown-it-mathjax3": "^4.3.2",
-    "mermaid": "^9.1.0",
-    "vitepress-plugin-mermaid": "^2.0.10"
+    "mermaid": "^11.3.0",
+    "vitepress": "^1.4.0",
+    "vitepress-plugin-mermaid": "^2.0.17"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
