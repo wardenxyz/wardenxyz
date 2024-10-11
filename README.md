@@ -10,9 +10,8 @@
 
 ### 十月
 
+- [vitepress 更新文档](<docs/2024/10/vitepress 更新文档.md>)
 - [Windows 删除右键菜单](<docs/2024/10/Windows 删除右键菜单.md>)
-- [git-crypt 学习笔记](<docs/2024/10/git-crypt 学习笔记.md>)
-- [生成 GPG 密钥](<docs/2024/10/生成 GPG 密钥.md>)
 - [GitHub page 搭建学习笔记](<docs/2024/10/GitHub page 搭建学习笔记.md>)
 - [多服务共享单一域名的奥秘](docs/2024/10/多服务共享单一域名的奥秘.md)
 - [Linux 学习笔记](docs/2024/10/Linux%20学习笔记.md)
@@ -35,7 +34,10 @@
 
 ### 七月
 
+- [git-crypt 官方文档](<docs/2024/07/git-crypt 官方文档.md>)
 - [git-crypt 官方文档中文翻译](<docs/2024/07/git-crypt 官方文档中文翻译.md>)
+- [git-crypt 学习笔记](<docs/2024/07/git-crypt 学习笔记.md>)
+- [生成 GPG 密钥](<docs/2024/07/生成 GPG 密钥.md>)
 
 ### 六月
 
@@ -51,7 +53,6 @@
 - [ffmpeg 自用命令](<docs/2024/04/ffmpeg 自用命令.md>)
 - [git 分支操作](<docs/2024/04/git 分支操作.md>)
 - [git 命令手册](<docs/2024/04/git 命令手册.md>)
-- [git-crypt 官方文档](<docs/2024/04/git-crypt 官方文档.md>)
 - [GPG 在通信中的简单理解](<docs/2024/04/GPG 在通信中的简单理解.md>)
 - [LaTeX 与希腊字母对照表](<docs/2024/04/LaTeX 与希腊字母对照表.md>)
 - [obsidian快捷键](<docs/2024/04/obsidian快捷键.md>)
