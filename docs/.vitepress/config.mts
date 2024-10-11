@@ -122,7 +122,6 @@ export default withMermaid(
             text: '2024 年 5 月',
             collapsed:true,
             items: [
-              { text: '删除右键菜单', link: '/2024/05/删除右键菜单' },
               { text: 'vscode snippets 预置变量', link: '/2024/05/vscode snippets 预置变量' },
             ]
           },
