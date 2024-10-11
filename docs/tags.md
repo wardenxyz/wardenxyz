@@ -6,24 +6,18 @@
 
 - [git 分支操作](<2024/04/git 分支操作.md>)
 - [git 命令手册](<2024/04/git 命令手册.md>)
-- [git-crypt 官方文档](<2024/04/git-crypt 官方文档.md>)
 - [彻底从 git 提交中移除文件](<2024/04/彻底从 git 提交中移除文件.md>)
 - [git commit message 规范](<2024/06/git commit message 规范.md>)
+- [git-crypt 学习笔记](<2024/07/git-crypt 学习笔记.md>)
+- [git-crypt 官方文档](<2024/07/git-crypt 官方文档.md>)
 - [git-crypt 官方文档中文翻译](<2024/07/git-crypt 官方文档中文翻译.md>)
 - [git 强制覆盖本地仓库](<2024/09/git 强制覆盖本地仓库.md>)
-- [git-crypt 学习笔记](<2024/10/git-crypt 学习笔记.md>)
 - [git-sizer 使用](<2024/10/git-sizer 使用.md>)
-
-## git-crypt
-
-- [git-crypt 官方文档](<2024/04/git-crypt 官方文档.md>)
-- [git-crypt 官方文档中文翻译](<2024/07/git-crypt 官方文档中文翻译.md>)
-- [git-crypt 学习笔记](<2024/10/git-crypt 学习笔记.md>)
 
 ## GPG
 
 - [GPG 在通信中的简单理解](<2024/04/GPG 在通信中的简单理解.md>)
-- [生成 GPG 密钥](<2024/10/生成 GPG 密钥.md>)
+- [生成 GPG 密钥](<2024/07/生成 GPG 密钥.md>)
 
 ## 加密
 
@@ -83,6 +77,12 @@
 - [README 文档结构](<2024/06/README 文档结构.md>)
 - [GitHub page 搭建学习笔记](<2024/10/GitHub page 搭建学习笔记.md>)
 
+## git-crypt
+
+- [git-crypt 学习笔记](<2024/07/git-crypt 学习笔记.md>)
+- [git-crypt 官方文档](<2024/07/git-crypt 官方文档.md>)
+- [git-crypt 官方文档中文翻译](<2024/07/git-crypt 官方文档中文翻译.md>)
+
 ## B站
 
 - [B站嵌入代码](<2024/08/B站嵌入代码.md>)
@@ -117,6 +117,10 @@
 ## OpenSSL
 
 - [OpenSSL 加解密学习笔记](<2024/10/OpenSSL 加解密学习笔记.md>)
+
+## vitepress
+
+- [vitepress 更新文档](<2024/10/vitepress 更新文档.md>)
 
 ## 域名
 

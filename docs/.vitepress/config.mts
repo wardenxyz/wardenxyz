@@ -73,9 +73,8 @@ export default withMermaid(
             text: '2024 年 10 月',
             collapsed:true,
             items: [
+              { text: 'vitepress 更新文档', link: '/2024/10/vitepress 更新文档' },
               { text: '多服务共享单一域名的奥秘', link: '/2024/10/多服务共享单一域名的奥秘' },
-              { text: '生成 GPG 密钥', link: '/2024/10/生成 GPG 密钥' },
-              { text: 'git-crypt 学习笔记', link: '/2024/10/git-crypt 学习笔记' },
               { text: 'git-sizer 使用', link: '/2024/10/git-sizer 使用' },
               { text: 'GitHub page 搭建学习笔记', link: '/2024/10/GitHub page 搭建学习笔记' },
               { text: 'lazy.nvim 使用心得', link: '/2024/10/lazy.nvim 使用心得' },
@@ -107,7 +106,10 @@ export default withMermaid(
             text: '2024 年 7 月',
             collapsed:true,
             items: [
+              { text: 'git-crypt 官方文档', link: '/2024/07/git-crypt 官方文档' },
               { text: 'git-crypt 官方文档中文翻译', link: '/2024/07/git-crypt 官方文档中文翻译' },
+              { text: 'git-crypt 学习笔记', link: '/2024/07/git-crypt 学习笔记' },
+              { text: '生成 GPG 密钥', link: '/2024/07/生成 GPG 密钥' },
             ]
           },
           {
@@ -140,7 +142,6 @@ export default withMermaid(
               { text: 'ffmpeg 自用命令', link: '/2024/04/ffmpeg 自用命令' },
               { text: 'git 分支操作', link: '/2024/04/git 分支操作' },
               { text: 'git 命令手册', link: '/2024/04/git 命令手册' },
-              { text: 'git-crypt 官方文档', link: '/2024/04/git-crypt 官方文档' },
               { text: 'GPG 在通信中的简单理解', link: '/2024/04/GPG 在通信中的简单理解' },
               { text: 'LaTeX 与希腊字母对照表', link: '/2024/04/LaTeX 与希腊字母对照表' },
               { text: 'obsidian快捷键', link: '/2024/04/obsidian快捷键' },

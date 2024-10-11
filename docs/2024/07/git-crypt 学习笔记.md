@@ -1,5 +1,5 @@
 ---
-date: 2024-10-10
+date: 2024-07-10
 tags:
 - git
 - git-crypt
