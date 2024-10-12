@@ -4,7 +4,8 @@
 
 标签页：[tags](mkdocs/tags.md)
 
-> 📌 Pin: [Python 学习笔记](<mkdocs/2024/10/python 学习笔记.md>)
+> [!NOTE]
+> 📌 Pin: [vitepress 学习笔记](<mkdocs/2024/10/vitepress 学习笔记.md>)
 
 ## 2024
 
