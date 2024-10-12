@@ -11,7 +11,7 @@ hero:
     dark: /home-dark.svg
     alt: VitePress.logo
   actions:
-    - theme: alt
+    - theme: brand
       text: 标签
       link: /tags
     - theme: alt
