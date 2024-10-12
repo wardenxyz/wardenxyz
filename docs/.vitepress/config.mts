@@ -11,7 +11,7 @@ export default withMermaid(
         "link",
         {
           rel: 'apple-touch-icon',
-          sizes: '180x180', // 修正了 'size' 为 'sizes'
+          sizes: '180x180',
           href: '/logo.svg'
         }
       ],
