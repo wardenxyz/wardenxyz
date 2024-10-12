@@ -10,13 +10,27 @@ export default withMermaid(
     title: "学习笔记",
     description: "个人站点",
     themeConfig: {
-      nav: [ // 主页右上角菜单
+
+/**
+ * 以下是主页右上角配置，每年一更新
+ * -------------------------------------------------------------------------- */
+
+      nav: [
         { text: '首页', link: '/' },
         { text: '标签', link: '/tags' },
         { text: '分类', link: '/categories' },
         { text: '2024 年', link: '/2024/04/彻底从 git 提交中移除文件' }
       ],
-      sidebar: { // 侧边栏，每次更新 vitepress 文章时会更新
+
+/**
+ * 以上是主页右上角配置，每年一更新
+ * -------------------------------------------------------------------------- */
+
+/**
+ * 以下是文章左侧栏配置，每次更新 vitepress 文章时都要更新
+ * -------------------------------------------------------------------------- */
+
+      sidebar: {
         '/2024/': [
           {
             text: '2024 年 10 月',
@@ -101,6 +115,11 @@ export default withMermaid(
           },
         ]
       },
+
+/**
+ * 以上是文章左侧栏配置，每次更新 vitepress 文章时都要更新
+ * -------------------------------------------------------------------------- */
+
       logo: '/logo.svg', // 右上角
       socialLinks: [
         { icon: 'github', link: 'https://github.com/wardenxyz/wardenxyz' }
@@ -131,7 +150,8 @@ export default withMermaid(
       },
     },
     markdown: {
-      math: true
+      math: true,
+      lineNumbers: true // 代码块显示行号
     },
     lastUpdated: true,
     head: [ // 图标配置
