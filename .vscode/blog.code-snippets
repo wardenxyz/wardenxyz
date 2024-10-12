@@ -21,7 +21,7 @@
     },
     "GitHub blockquote": {
         "body": [
-            "> [${1|!NOTE,!TIP,!IMPORTANT,!WARNING,!CAUTION|}]",
+            "> [${1|!TIP,!NOTE,!IMPORTANT,!WARNING,!CAUTION|}]",
             "> $2",
         ],
         "description": "GFM blockquote",
