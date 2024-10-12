@@ -28,7 +28,8 @@
 - [Linux 学习笔记](<2024/10/Linux 学习笔记.md>)
 - [OpenSSL 加解密学习笔记](<2024/10/OpenSSL 加解密学习笔记.md>)
 - [python 学习笔记](<2024/10/python 学习笔记.md>)
-- [vitepress 更新文档](<2024/10/vitepress 更新文档.md>)
+- [vitepress 学习笔记](<2024/10/vitepress 学习笔记.md>)
+- [vitepress 维护指南](<2024/10/vitepress 维护指南.md>)
 - [Windows 删除右键菜单](<2024/10/Windows 删除右键菜单.md>)
 - [多服务共享单一域名的奥秘](<2024/10/多服务共享单一域名的奥秘.md>)
 

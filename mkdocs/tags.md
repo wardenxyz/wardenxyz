@@ -120,7 +120,8 @@
 
 ## vitepress
 
-- [vitepress 更新文档](<2024/10/vitepress 更新文档.md>)
+- [vitepress 学习笔记](<2024/10/vitepress 学习笔记.md>)
+- [vitepress 维护指南](<2024/10/vitepress 维护指南.md>)
 
 ## 域名
 

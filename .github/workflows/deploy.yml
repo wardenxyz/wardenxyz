@@ -23,7 +23,7 @@ jobs:
         npm install
 
     - name: 构建 vitepress
-      run: npm run docs:build
+      run:  npx vitepress build
 
     - name: 设置 SSH 密钥
       run: |
@@ -38,7 +38,7 @@ jobs:
 
     - name: 复制生成的文件到目标仓库
       run: |
-        cp -r docs/.vitepress/dist/* target_repo/
+        cp -r html/* target_repo/
 
     - name: 提交并推送更改到目标仓库
       run: |
