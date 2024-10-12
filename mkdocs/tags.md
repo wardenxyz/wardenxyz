@@ -36,7 +36,7 @@
 ## vim
 
 - [vim 学习笔记](<2024/04/vim 学习笔记.md>)
-- [lazy.nvim 使用心得](<2024/10/lazy.nvim 使用心得.md>)
+- [lazy.nvim 使用心得](<2024/10/lazy.nvim 学习笔记.md>)
 
 ## vscode
 
@@ -108,7 +108,7 @@
 
 ## lazy.nvim
 
-- [lazy.nvim 使用心得](<2024/10/lazy.nvim 使用心得.md>)
+- [lazy.nvim 使用心得](<2024/10/lazy.nvim 学习笔记.md>)
 
 ## Linux
 

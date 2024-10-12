@@ -168,23 +168,23 @@ openssl rsa -pubout -in private_key.pem -out public_key.pem
 
 ---
 
-## OpenSSL 支持哪些算法，全部列出来
+## OpenSSL 支持的算法
 
 OpenSSL 支持多种加密算法，包括对称加密算法、非对称加密算法和哈希函数。你可以使用以下的命令来列出 OpenSSL 支持的所有算法：
 
-1. **列出所有的对称加密算法：**
+1. 列出所有的对称加密算法：
 
     ```bash
     openssl list -cipher-algorithms
     ```
 
-2. **列出所有的非对称加密算法：**
+2. 列出所有的非对称加密算法：
 
     ```bash
     openssl list -public-key-algorithms
     ```
 
-3. **列出所有的哈希函数：**
+3. 列出所有的哈希函数：
 
     ```bash
     openssl list -digest-commands

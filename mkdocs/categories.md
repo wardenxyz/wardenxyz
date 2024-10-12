@@ -24,7 +24,7 @@
 - [git 强制覆盖本地仓库](<2024/09/git 强制覆盖本地仓库.md>)
 - [git-sizer 使用](<2024/10/git-sizer 使用.md>)
 - [GitHub page 搭建学习笔记](<2024/10/GitHub page 搭建学习笔记.md>)
-- [lazy.nvim 使用心得](<2024/10/lazy.nvim 使用心得.md>)
+- [lazy.nvim 使用心得](<2024/10/lazy.nvim 学习笔记.md>)
 - [Linux 学习笔记](<2024/10/Linux 学习笔记.md>)
 - [OpenSSL 加解密学习笔记](<2024/10/OpenSSL 加解密学习笔记.md>)
 - [python 学习笔记](<2024/10/python 学习笔记.md>)
