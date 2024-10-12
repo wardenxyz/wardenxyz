@@ -26,7 +26,7 @@ categories:
 └─ package.json
 ```
 
-顺序：
+步骤：
 
 https://vitepress.dev/zh/guide/getting-started
 
@@ -71,6 +71,7 @@ npx vitepress init
 ## 第三步，修改 vitepress 配置文件
 
 ```typescript
+// .vitepress/config.mts
 export default(
   defineConfig({
     srcDir: 'mkdocs', // 这里面存放的是 markdown 文件

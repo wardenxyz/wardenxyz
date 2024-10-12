@@ -18,7 +18,7 @@
 - [Linux 学习笔记](mkdocs/2024/10/Linux%20学习笔记.md)
 - [python 学习笔记](mkdocs/2024/10/python%20学习笔记.md)
 - [OpenSSL 加解密学习笔记](mkdocs/2024/10/OpenSSL%20加解密学习笔记.md)
-- [lazy.nvim 使用心得](mkdocs/2024/10/lazy.nvim%20使用心得.md)
+- [lazy.nvim 学习笔记](<mkdocs/2024/10/lazy.nvim 学习笔记.md>)
 - [git-sizer 使用](mkdocs/2024/10/git-sizer%20使用.md)
 
 ### 九月

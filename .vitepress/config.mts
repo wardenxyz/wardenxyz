@@ -24,10 +24,10 @@ export default withMermaid(
             items: [
               { text: 'vitepress 学习笔记', link: '/2024/10/vitepress 学习笔记' },
               { text: 'vitepress 维护指南', link: '/2024/10/vitepress 维护指南' },
+              { text: 'GitHub page 搭建学习笔记', link: '/2024/10/GitHub page 搭建学习笔记' },
               { text: '多服务共享单一域名的奥秘', link: '/2024/10/多服务共享单一域名的奥秘' },
               { text: 'git-sizer 使用', link: '/2024/10/git-sizer 使用' },
-              { text: 'GitHub page 搭建学习笔记', link: '/2024/10/GitHub page 搭建学习笔记' },
-              { text: 'lazy.nvim 使用心得', link: '/2024/10/lazy.nvim 使用心得' },
+              { text: 'lazy.nvim 学习笔记', link: '/2024/10/lazy.nvim 学习笔记' },
               { text: 'Linux 学习笔记', link: '/2024/10/Linux 学习笔记' },
               { text: 'OpenSSL 加解密学习笔记', link: '/2024/10/OpenSSL 加解密学习笔记' },
               { text: 'python 学习笔记', link: '/2024/10/python 学习笔记' },
