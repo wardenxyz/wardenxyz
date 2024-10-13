@@ -22,7 +22,7 @@ categories:
 ├─ cache # 缓存文件
 ├─ html # 生成的静态文件
 ├─ mkdocs # viepress 源文件夹
-│  ├─ public # 静态文件
+│  ├─ public # 图片等文件
 │  └─ index.md # 首页
 └─ package-lock.json
 └─ package.json
@@ -50,22 +50,22 @@ npx vitepress init
 ┌  Welcome to VitePress!
 │
 ◇  Where should VitePress initialize the config? # 这里选择根目录
-│  ./
+│  ./ # [!code highlight]
 │
 ◇  Site title: # confid.mts 的 title 字段
-│  My Awesome Project
+│  My Awesome Project # [!code highlight]
 │
 ◇  Site description: # confid.mts 的 description 字段
-│  A VitePress Site
+│  A VitePress Site # [!code highlight]
 │
 ◇  Theme: # 这里选默认主题 + 自定义主题
-│  Default Theme + Customization
+│  Default Theme + Customization # [!code highlight]
 │
 ◇  Use TypeScript for config and theme files? # 选 TypeScript 为配置文件
-│  Yes
+│  Yes # [!code highlight]
 │
 ◇  Add VitePress npm scripts to package.json? #不要在 package.json 中添加脚本
-│  No
+│  No # [!code highlight]
 │
 └  You're all set! Now run npx vitepress dev and start writing.
 ```
@@ -76,9 +76,9 @@ npx vitepress init
 // .vitepress/config.mts
 export default(
   defineConfig({
-    srcDir: 'mkdocs', // 这里面存放的是 markdown 文件
-    outDir: 'html', // 这里面存放的是生成的静态文件
-    cacheDir: 'cache', // 这里面存放的是缓存文件
+    srcDir: 'mkdocs', // 这里面存放的是 markdown 文件 // [!code ++]
+    outDir: 'html', // 这里面存放的是生成的静态文件 // [!code ++]
+    cacheDir: 'cache', // 这里面存放的是缓存文件 // [!code ++]
   })
 )
 ```

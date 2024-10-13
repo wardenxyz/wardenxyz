@@ -50,16 +50,16 @@ jobs:
     - name: 检出仓库
       uses: actions/checkout@v4
 
-    - name: 设置 Node.js 环境 # 根据 SSG 来确定环境
+    - name: 设置 Node.js 环境 # 根据 SSG 来确定环境 # [!code highlight]
       uses: actions/setup-node@v3
       with:
         node-version: '>=20.18.0'
 
-    - name: 下载依赖
+    - name: 下载依赖 # [!code highlight]
       run: |
         npm install
 
-    - name: 构建 vitepress
+    - name: 构建 vitepress # [!code highlight]
       run:  npx vitepress build
 
     - name: 设置 SSH 密钥
@@ -69,11 +69,11 @@ jobs:
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan github.com >> ~/.ssh/known_hosts
 
-    - name: 克隆目标仓库
+    - name: 克隆目标仓库 # [!code highlight]
       run: |
         git clone git@github.com:wardenxyz/wardenxyz.github.io.git target_repo
 
-    - name: 复制生成的文件到目标仓库 # 根据 SSG 来确定复制文件路径
+    - name: 复制生成的文件到目标仓库 # 根据 SSG 来确定复制文件路径 # [!code highlight]
       run: |
         cp -r html/* target_repo/
 
