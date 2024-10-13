@@ -4,31 +4,20 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 // https://vitepress.dev/reference/site-config
 export default withMermaid(
   defineConfig({
-    srcDir: 'mkdocs', // 这里面存放的是 markdown 文件
-    outDir: 'html', // 这里面存放的是生成的静态文件
-    cacheDir: 'cache', // 这里面存放的是缓存文件
+    cleanUrls: true,
+    srcDir: 'mkdocs',
+    outDir: 'html',
+    cacheDir: 'cache',
     title: "学习笔记",
     description: "个人站点",
     themeConfig: {
-
-/**
- * 以下是主页右上角配置，每年一更新
- * -------------------------------------------------------------------------- */
 
       nav: [
         { text: '首页', link: '/' },
         { text: '标签', link: '/tags' },
         { text: '分类', link: '/categories' },
-        { text: '2024 年', link: '/2024/04/彻底从 git 提交中移除文件' }
+        { text: '2024 年', link: '/2024/04/remove_file_from_git_history' }
       ],
-
-/**
- * 以上是主页右上角配置，每年一更新
- * -------------------------------------------------------------------------- */
-
-/**
- * 以下是文章左侧栏配置，每次更新 vitepress 文章时都要更新
- * -------------------------------------------------------------------------- */
 
       sidebar: {
         '/2024/': [
@@ -36,89 +25,80 @@ export default withMermaid(
             text: '2024 年 10 月',
             collapsed: true,
             items: [
-              { text: 'vitepress 学习笔记', link: '/2024/10/vitepress 学习笔记' },
-              { text: 'vitepress 维护指南', link: '/2024/10/vitepress 维护指南' },
-              { text: 'GitHub page 搭建学习笔记', link: '/2024/10/GitHub page 搭建学习笔记' },
-              { text: '多服务共享单一域名的奥秘', link: '/2024/10/多服务共享单一域名的奥秘' },
-              { text: 'git-sizer 使用', link: '/2024/10/git-sizer 使用' },
-              { text: 'lazy.nvim 学习笔记', link: '/2024/10/lazy.nvim 学习笔记' },
-              { text: 'Linux 学习笔记', link: '/2024/10/Linux 学习笔记' },
-              { text: 'OpenSSL 加解密学习笔记', link: '/2024/10/OpenSSL 加解密学习笔记' },
-              { text: 'python 学习笔记', link: '/2024/10/python 学习笔记' },
-              { text: 'Windows 删除右键菜单', link: '/2024/10/Windows 删除右键菜单' },
+              { text: 'vitepress 学习笔记', link: '/2024/10/use_vitepress' },
+              { text: 'GitHub page 搭建学习笔记', link: '/2024/10/deploy_gitHub_page' },
+              { text: 'git-sizer 学习笔记', link: '/2024/10/use_git-izer' },
+              { text: 'lazy.nvim 学习笔记', link: '/2024/10/use_lazy.nvim' },
+              { text: 'Linux 学习笔记', link: '/2024/10/use_Linux' },
+              { text: 'OpenSSL 加解密学习笔记', link: '/2024/10/use_OpenSSL_encrypt' },
+              { text: 'python 学习笔记', link: '/2024/10/use_python' },
+              { text: 'Windows 删除右键菜单', link: '/2024/10/windows_delete_right_click_menu' },
             ]
           },
           {
             text: '2024 年 9 月',
             collapsed: true,
             items: [
-              { text: '职业规划培训', link: '/2024/09/职业规划培训' },
-              { text: 'git 强制覆盖本地仓库', link: '/2024/09/git 强制覆盖本地仓库' },
+              { text: 'git 强制覆盖本地仓库', link: '/2024/09/git_force_overwrite_local_repo' },
             ]
           },
           {
             text: '2024 年 8 月',
             collapsed: true,
             items: [
-              { text: '个人自用软件', link: '/2024/08/个人自用软件' },
-              { text: '一个台湾网友的自白', link: '/2024/08/一个台湾网友的自白' },
-              { text: '用 you-get 下载B站视频', link: '/2024/08/用 you-get 下载B站视频' },
-              { text: 'B站嵌入代码', link: '/2024/08/B站嵌入代码' },
+              { text: '个人自用软件', link: '/2024/08/personal_software' },
+              { text: '用 you-get 下载B站视频', link: '/2024/08/use_you-get' },
+              { text: 'B站嵌入代码', link: '/2024/08/bilibili_embedding_code' },
             ]
           },
           {
             text: '2024 年 7 月',
             collapsed: true,
             items: [
-              { text: 'git-crypt 官方文档', link: '/2024/07/git-crypt 官方文档' },
-              { text: 'git-crypt 官方文档中文翻译', link: '/2024/07/git-crypt 官方文档中文翻译' },
-              { text: 'git-crypt 学习笔记', link: '/2024/07/git-crypt 学习笔记' },
-              { text: '生成 GPG 密钥', link: '/2024/07/生成 GPG 密钥' },
+              { text: 'git-crypt 官方文档', link: '/2024/07/git-crypt_official_doc' },
+              { text: 'git-crypt 官方文档中文翻译', link: '/2024/07/git-crypt_official_doc_zh' },
+              { text: 'git-crypt 学习笔记', link: '/2024/07/use_git-crypt' },
+              { text: '生成 GPG 密钥', link: '/2024/07/gen_GPG_key' },
             ]
           },
           {
             text: '2024 年 6 月',
             collapsed: true,
             items: [
-              { text: 'git commit message 规范', link: '/2024/06/git commit message 规范' },
-              { text: 'README 文档结构', link: '/2024/06/README 文档结构' },
+              { text: 'git commit message 规范', link: '/2024/06/git_commit_message_standard' },
+              { text: 'README 文档结构', link: '/2024/06/README_outline' },
             ]
           },
           {
             text: '2024 年 5 月',
             collapsed: true,
             items: [
-              { text: 'vscode snippets 预置变量', link: '/2024/05/vscode snippets 预置变量' },
+              { text: 'vscode snippets 预置变量', link: '/2024/05/vscode_snippets_variable' },
             ]
           },
           {
             text: '2024 年 4 月',
             collapsed: true,
             items: [
-              { text: '彻底从 git 提交中移除文件', link: '/2024/04/彻底从 git 提交中移除文件' },
-              { text: '第三方邮箱客户端配置QQmail & Foxmail', link: '/2024/04/第三方邮箱客户端配置QQmail & Foxmail' },
-              { text: '浏览器UA值', link: '/2024/04/浏览器UA值' },
-              { text: '神秘博士复活时间表', link: '/2024/04/神秘博士复活时间表' },
-              { text: '适合做网名的英文单词', link: '/2024/04/适合做网名的英文单词' },
-              { text: '手机QQ文件存储路径', link: '/2024/04/手机QQ文件存储路径' },
-              { text: '现代加密学', link: '/2024/04/现代加密学' },
-              { text: '正则表达式教程', link: '/2024/04/正则表达式教程' },
-              { text: 'ffmpeg 自用命令', link: '/2024/04/ffmpeg 自用命令' },
-              { text: 'git 分支操作', link: '/2024/04/git 分支操作' },
-              { text: 'git 命令手册', link: '/2024/04/git 命令手册' },
-              { text: 'GPG 在通信中的简单理解', link: '/2024/04/GPG 在通信中的简单理解' },
-              { text: 'LaTeX 与希腊字母对照表', link: '/2024/04/LaTeX 与希腊字母对照表' },
-              { text: 'obsidian快捷键', link: '/2024/04/obsidian快捷键' },
-              { text: 'vim 学习笔记', link: '/2024/04/vim 学习笔记' },
-              { text: 'vscode', link: '/2024/04/vscode' },
+              { text: '彻底从 git 提交中移除文件', link: '/2024/04/remove_file_from_git_history' },
+              { text: '第三方邮箱客户端配置QQmail & Foxmail', link: '/2024/04/qqmail_third_party_config' },
+              { text: '浏览器UA值', link: '/2024/04/browser_UA_value' },
+              { text: '神秘博士复活时间表', link: '/2024/04/former_doctor_who' },
+              { text: '手机QQ文件存储路径', link: '/2024/04/android_QQ_file_storage_path' },
+              { text: '现代加密学', link: '/2024/04/modern_cryptography' },
+              { text: '正则表达式教程', link: '/2024/04/use_regex' },
+              { text: 'ffmpeg 自用命令', link: '/2024/04/use_ffmpeg' },
+              { text: 'git 分支操作', link: '/2024/04/git_branch' },
+              { text: 'git 命令手册', link: '/2024/04/git_Cli' },
+              { text: 'GPG 在通信中的简单理解', link: '/2024/04/gpg_communication' },
+              { text: 'LaTeX 与希腊字母对照表', link: '/2024/04/use_LaTeX' },
+              { text: 'obsidian快捷键', link: '/2024/04/obsidian_shortcut_key' },
+              { text: 'vim 学习笔记', link: '/2024/04/use_vim' },
+              { text: 'vscode', link: '/2024/04/use_vscode' },
             ]
           },
         ]
       },
-
-/**
- * 以上是文章左侧栏配置，每次更新 vitepress 文章时都要更新
- * -------------------------------------------------------------------------- */
 
       logo: '/logo.svg', // 右上角
       socialLinks: [
