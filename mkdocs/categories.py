@@ -1,6 +1,14 @@
 import os
 import yaml
 
+def extract_first_heading(file_path):
+    """Extract the first H1 heading from a Markdown file."""
+    with open(file_path, 'r', encoding='utf-8') as file:
+        for line in file:
+            if line.startswith('# '):  # 检查是否为一级标题
+                return line.strip('# ').strip()  # 去除 '#' 并返回标题文本
+    return None  # 如果没有找到一级标题，则返回 None
+
 def extract_categories(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.read()
@@ -24,7 +32,8 @@ def collect_posts_by_category(directory, root_directory):
                 file_path = os.path.join(root, file)
                 relative_path = os.path.relpath(file_path, root_directory).replace(os.sep, '/')
                 categories = extract_categories(file_path)
-                title = extract_file_name(file_path)
+                # 尝试从文件中获取一级标题作为链接文本
+                title = extract_first_heading(file_path) or extract_file_name(file_path)
                 for category in categories:
                     if category not in categories_dict:
                         categories_dict[category] = []

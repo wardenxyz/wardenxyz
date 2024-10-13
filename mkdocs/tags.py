@@ -1,6 +1,14 @@
 import os
 import yaml
 
+def extract_first_heading(file_path):
+    """Extract the first H1 heading from a Markdown file."""
+    with open(file_path, 'r', encoding='utf-8') as file:
+        for line in file:
+            if line.startswith('# '):  # 检查是否为一级标题
+                return line.strip('# ').strip()  # 去除 '#' 并返回标题文本
+    return None  # 如果没有找到一级标题，则返回 None
+
 def extract_tags(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.read()
@@ -24,7 +32,8 @@ def collect_posts_by_tag(directory, root_directory):
                 file_path = os.path.join(root, file)
                 relative_path = os.path.relpath(file_path, root_directory).replace(os.sep, '/')
                 tags = extract_tags(file_path)
-                title = extract_file_name(file_path)
+                # 尝试从文件中获取一级标题作为链接文本
+                title = extract_first_heading(file_path) or extract_file_name(file_path)
                 for tag in tags:
                     if tag not in tags_dict:
                         tags_dict[tag] = []
@@ -49,7 +58,7 @@ def write_tags_to_file(tags_dict, output_file):
 
         # 再写入标签数据
         for tag, posts in tags_dict.items():
-            file.write(f"## {tag}\n\n") # tag 三级标题
+            file.write(f"## {tag}\n\n")  # tag 三级标题
             for post in posts:
                 file.write(f"- [{post[2]}](<{post[1]}>)\n")
             file.write("\n")
@@ -61,7 +70,7 @@ def main(posts_directory, output_file):
 
 if __name__ == "__main__":
     # 自定义 posts_directory 和 output_file
-    custom_posts_directory = r"mkdocs" # 自定义扫描目录
-    custom_output_file = r"mkdocs\tags.md" # 自定义输出文件
+    custom_posts_directory = r"mkdocs"  # 自定义扫描目录
+    custom_output_file = r"mkdocs\tags.md"  # 自定义输出文件
 
     main(custom_posts_directory, custom_output_file)

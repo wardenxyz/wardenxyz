@@ -4,56 +4,48 @@ footer: false
 
 ## 计算机
 
-- [ffmpeg 自用命令](<2024/04/ffmpeg 自用命令.md>)
-- [git 分支操作](<2024/04/git 分支操作.md>)
-- [git 命令手册](<2024/04/git 命令手册.md>)
-- [GPG 在通信中的简单理解](<2024/04/GPG 在通信中的简单理解.md>)
-- [vim 学习笔记](<2024/04/vim 学习笔记.md>)
-- [vscode](<2024/04/vscode.md>)
-- [彻底从 git 提交中移除文件](<2024/04/彻底从 git 提交中移除文件.md>)
-- [手机QQ文件存储路径](<2024/04/手机QQ文件存储路径.md>)
-- [正则表达式教程](<2024/04/正则表达式教程.md>)
-- [浏览器UA值](<2024/04/浏览器UA值.md>)
-- [现代加密学](<2024/04/现代加密学.md>)
-- [vscode snippets 预置变量](<2024/05/vscode snippets 预置变量.md>)
-- [git commit message 规范](<2024/06/git commit message 规范.md>)
-- [README 文档结构](<2024/06/README 文档结构.md>)
-- [git-crypt 学习笔记](<2024/07/git-crypt 学习笔记.md>)
-- [git-crypt 官方文档](<2024/07/git-crypt 官方文档.md>)
-- [git-crypt 官方文档中文翻译](<2024/07/git-crypt 官方文档中文翻译.md>)
-- [生成 GPG 密钥](<2024/07/生成 GPG 密钥.md>)
-- [B站嵌入代码](<2024/08/B站嵌入代码.md>)
-- [个人自用软件](<2024/08/个人自用软件.md>)
-- [用 you-get 下载B站视频](<2024/08/用 you-get 下载B站视频.md>)
-- [git 强制覆盖本地仓库](<2024/09/git 强制覆盖本地仓库.md>)
-- [git-sizer 使用](<2024/10/git-sizer 使用.md>)
-- [GitHub page 搭建学习笔记](<2024/10/GitHub page 搭建学习笔记.md>)
-- [lazy.nvim 学习笔记](<2024/10/lazy.nvim 学习笔记.md>)
-- [Linux 学习笔记](<2024/10/Linux 学习笔记.md>)
-- [OpenSSL 加解密学习笔记](<2024/10/OpenSSL 加解密学习笔记.md>)
-- [python 学习笔记](<2024/10/python 学习笔记.md>)
-- [vitepress 学习笔记](<2024/10/vitepress 学习笔记.md>)
-- [vitepress 维护指南](<2024/10/vitepress 维护指南.md>)
-- [Windows 删除右键菜单](<2024/10/Windows 删除右键菜单.md>)
-- [多服务共享单一域名的奥秘](<2024/10/多服务共享单一域名的奥秘.md>)
-
-## 数学
-
-- [LaTeX 与希腊字母对照表](<2024/04/LaTeX 与希腊字母对照表.md>)
-
-## 软件
-
-- [obsidian快捷键](<2024/04/obsidian快捷键.md>)
-- [第三方邮箱客户端配置QQmail & Foxmail](<2024/04/第三方邮箱客户端配置QQmail & Foxmail.md>)
-- [个人自用软件](<2024/08/个人自用软件.md>)
+- [手机QQ文件存储路径](<2024/04/android_QQ_file_storage_path.md>)
+- [浏览器UA值](<2024/04/browser_UA_value.md>)
+- [git 分支操作](<2024/04/git_branch.md>)
+- [git 命令手册](<2024/04/git_Cli.md>)
+- [GPG 在通信中的简单理解](<2024/04/gpg_communication.md>)
+- [现代加密学](<2024/04/modern_cryptography.md>)
+- [彻底从 git 提交中移除文件](<2024/04/remove_file_from_git_history.md>)
+- [ffmpeg 自用命令](<2024/04/use_ffmpeg.md>)
+- [正则表达式教程](<2024/04/use_regex.md>)
+- [vim 学习笔记](<2024/04/use_vim.md>)
+- [vscode](<2024/04/use_vscode.md>)
+- [vscode snippets 预置变量](<2024/05/vscode_snippets_variable.md>)
+- [git commit message 规范](<2024/06/git_commit_message_standard.md>)
+- [README 文档结构](<2024/06/README_outline.md>)
+- [生成 GPG 密钥](<2024/07/gen_GPG_key.md>)
+- [git-crypt 官方文档](<2024/07/git-crypt_official_doc.md>)
+- [git-crypt 官方文档中文翻译](<2024/07/git-crypt_official_doc_zh.md>)
+- [git-crypt 学习笔记](<2024/07/use_git-crypt.md>)
+- [B站嵌入代码](<2024/08/bilibili_embedding_code.md>)
+- [个人自用软件](<2024/08/personal_software.md>)
+- [用 you-get 下载B站视频](<2024/08/use_you-get.md>)
+- [git 强制覆盖本地仓库](<2024/09/git_force_overwrite_local_repo.md>)
+- [GitHub page 搭建学习笔记](<2024/10/deploy_gitHub_page.md>)
+- [git-sizer 学习笔记](<2024/10/use_git-izer.md>)
+- [lazy.nvim 学习笔记](<2024/10/use_lazy.nvim.md>)
+- [Linux 学习笔记](<2024/10/use_Linux.md>)
+- [OpenSSL 加解密学习笔记](<2024/10/use_OpenSSL_encrypt.md>)
+- [python 学习笔记](<2024/10/use_python.md>)
+- [vitepress 学习笔记](<2024/10/use_vitepress.md>)
+- [Windows 删除右键菜单](<2024/10/windows_delete_right_click_menu.md>)
 
 ## 生活
 
-- [神秘博士复活时间表](<2024/04/神秘博士复活时间表.md>)
-- [适合做网名的英文单词](<2024/04/适合做网名的英文单词.md>)
-- [职业规划培训](<2024/09/职业规划培训.md>)
+- [神秘博士复活时间表](<2024/04/former_doctor_who.md>)
 
-## 转裁
+## 软件
 
-- [一个台湾网友的自白](<2024/08/一个台湾网友的自白.md>)
+- [obsidian快捷键](<2024/04/obsidian_shortcut_key.md>)
+- [第三方邮箱客户端配置QQmail & Foxmail](<2024/04/qqmail_third_party_config.md>)
+- [个人自用软件](<2024/08/personal_software.md>)
+
+## 数学
+
+- [LaTeX 与希腊字母对照表](<2024/04/use_LaTeX.md>)
 

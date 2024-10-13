@@ -19,17 +19,17 @@ hero:
       link: /categories
 features:
   - title: 2024 年 10 月
-    link: /2024/10/多服务共享单一域名的奥秘
+    link: /2024/10/use_vitepress
   - title: 2024 年 9 月
-    link: /2024/09/职业规划培训
+    link: /2024/09/git_force_overwrite_local_repo
   - title: 2024 年 8 月
-    link: /2024/08/个人自用软件
+    link: /2024/08/personal_software
   - title: 2024 年 7 月
-    link: /2024/07/git-crypt 官方文档中文翻译
+    link: /2024/07/git-crypt_official_doc
   - title: 2024 年 6 月
-    link: /2024/06/git commit message 规范
+    link: /2024/06/git_commit_message_standard
   - title: 2024 年 5 月
-    link: /2024/05/vscode snippets 预置变量
+    link: /2024/05/vscode_snippets_variable
   - title: 2024 年 4 月
-    link: /2024/04/彻底从 git 提交中移除文件
+    link: /2024/04/remove_file_from_git_history
 ---

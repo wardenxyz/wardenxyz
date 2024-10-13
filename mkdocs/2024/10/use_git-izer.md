@@ -8,7 +8,7 @@ categories:
 - 计算机
 ---
 
-# git-sizer 使用
+# git-sizer 学习笔记
 
 ## git-sizer 命令输出
 

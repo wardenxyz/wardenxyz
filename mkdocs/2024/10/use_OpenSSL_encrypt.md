@@ -41,7 +41,7 @@ openssl enc -p -aes-256-cbc -pbkdf2 -iter 20000 -pass pass:somepassword -in ./so
 
 总的来说，这个命令使用了 AES-256-CBC 算法和 PBKDF2 密钥派生函数，以及一个密码，对一个文件进行了加密，并将加密后的结果输出到另一个文件。同时，它还会打印出加密过程中使用的盐值和密钥。
 
-加密命令：
+解密命令：
 
 ```bash
 openssl enc -d -p -aes-256-cbc -pbkdf2 -iter 20000 -pass pass:somepassword -in ./sometext.txt.enc -out ./sometext.txt
