@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 date: 2024-10-09
 tags:
 - GitHub

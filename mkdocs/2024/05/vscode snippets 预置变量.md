@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 date: 2024-05-01
 tags:
 - vscode
