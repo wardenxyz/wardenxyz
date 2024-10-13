@@ -32,7 +32,22 @@ def collect_posts_by_tag(directory, root_directory):
     return tags_dict
 
 def write_tags_to_file(tags_dict, output_file):
+    # 读取前四行
+    initial_lines = []
+    if os.path.exists(output_file):
+        with open(output_file, 'r', encoding='utf-8') as file:
+            for _ in range(4):
+                line = file.readline()
+                if not line:
+                    break
+                initial_lines.append(line)
+
+    # 写入标签信息
     with open(output_file, 'w', encoding='utf-8') as file:
+        # 先写入前四行
+        file.writelines(initial_lines)
+
+        # 再写入标签数据
         for tag, posts in tags_dict.items():
             file.write(f"## {tag}\n\n") # tag 三级标题
             for post in posts:

@@ -32,9 +32,15 @@ def collect_posts_by_category(directory, root_directory):
     return categories_dict
 
 def write_categories_to_file(categories_dict, output_file):
+    header_lines = []
+    if os.path.exists(output_file):
+        with open(output_file, 'r', encoding='utf-8') as file:
+            header_lines = [next(file) for _ in range(4)]  # 读取前四行
+
     with open(output_file, 'w', encoding='utf-8') as file:
+        file.writelines(header_lines)  # 写回前四行
         for category, posts in categories_dict.items():
-            file.write(f"## {category}\n\n") # category 三级标题
+            file.write(f"## {category}\n\n")  # category 三级标题
             for post in posts:
                 file.write(f"- [{post[2]}](<{post[1]}>)\n")
             file.write("\n")
@@ -46,7 +52,7 @@ def main(posts_directory, output_file):
 
 if __name__ == "__main__":
     # 自定义 posts_directory 和 output_file
-    custom_posts_directory = r"mkdocs" # 自定义扫描目录
-    custom_output_file = r"mkdocs\categories.md" # 自定义输出文件
+    custom_posts_directory = r"mkdocs"  # 自定义扫描目录
+    custom_output_file = r"mkdocs\categories.md"  # 自定义输出文件
 
     main(custom_posts_directory, custom_output_file)
