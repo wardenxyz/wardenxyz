@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 date: 2024-07-10
 tags:
 - GPG

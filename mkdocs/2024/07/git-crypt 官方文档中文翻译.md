@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 date: 2024-07-01
 tags:
 - git-crypt

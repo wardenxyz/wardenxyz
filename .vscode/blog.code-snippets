@@ -2,6 +2,8 @@
     "blog 样板": {
         "body": [
             "---",
+            "prev: false",
+            "next: false",
             "date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
             "tags:",
             "- ${1}",
