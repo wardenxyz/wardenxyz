@@ -29,6 +29,7 @@ footer: false
 - [git-crypt 官方文档中文翻译](<2024/07/git-crypt_official_doc_zh.md>)
 - [git-crypt 学习笔记](<2024/07/use_git-crypt.md>)
 - [git 强制覆盖本地仓库](<2024/09/git_force_overwrite_local_repo.md>)
+- [git 重置当前分支](<2024/10/git_reset.md>)
 - [git-sizer 学习笔记](<2024/10/use_git-izer.md>)
 
 ## GPG

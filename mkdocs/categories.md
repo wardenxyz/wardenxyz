@@ -27,6 +27,7 @@ footer: false
 - [用 you-get 下载B站视频](<2024/08/use_you-get.md>)
 - [git 强制覆盖本地仓库](<2024/09/git_force_overwrite_local_repo.md>)
 - [GitHub page 搭建学习笔记](<2024/10/deploy_gitHub_page.md>)
+- [git 重置当前分支](<2024/10/git_reset.md>)
 - [git-sizer 学习笔记](<2024/10/use_git-izer.md>)
 - [lazy.nvim 学习笔记](<2024/10/use_lazy.nvim.md>)
 - [Linux 学习笔记](<2024/10/use_Linux.md>)
