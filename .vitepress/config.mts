@@ -25,6 +25,7 @@ export default withMermaid(
             text: '2024 年 10 月',
             collapsed: true,
             items: [
+              { text: 'git 重置当前分支', link: '/2024/10/git_reset' },
               { text: 'vitepress 学习笔记', link: '/2024/10/use_vitepress' },
               { text: 'GitHub page 搭建学习笔记', link: '/2024/10/deploy_gitHub_page' },
               { text: 'git-sizer 学习笔记', link: '/2024/10/use_git-izer' },
