@@ -50,6 +50,24 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 查看源
 
 ```bash
+pip config list
+```
+
+输出：
+
+```bash
+global.index-url='https://pypi.tuna.tsinghua.edu.cn/simple'
+```
+
+恢复默认源：
+
+```bash
+pip config unset global.index-url
+```
+
+配置文件位置：
+
+```bash
 C:\Users\admin\AppData\Roaming\pip\pip.ini
 ```
 

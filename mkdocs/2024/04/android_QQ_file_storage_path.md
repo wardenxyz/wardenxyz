@@ -11,4 +11,6 @@ categories:
 
 # 手机QQ文件存储路径
 
+```bash
 我的手机/android/data/com.tencent.mobileqq/tencent/qqfile_recv
+```
