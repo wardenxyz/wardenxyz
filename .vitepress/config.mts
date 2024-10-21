@@ -26,13 +26,13 @@ export default withMermaid(
             collapsed: true,
             items: [
               { text: 'git 重置当前分支', link: '/2024/10/git_reset' },
-              { text: 'vitepress 学习笔记', link: '/2024/10/use_vitepress' },
+              { text: 'vitepress 学习笔记', link: '/2024/10/vitepress_note' },
               { text: 'GitHub page 搭建学习笔记', link: '/2024/10/deploy_gitHub_page' },
-              { text: 'git-sizer 学习笔记', link: '/2024/10/use_git-izer' },
-              { text: 'lazy.nvim 学习笔记', link: '/2024/10/use_lazy.nvim' },
-              { text: 'Linux 学习笔记', link: '/2024/10/use_Linux' },
-              { text: 'OpenSSL 加解密学习笔记', link: '/2024/10/use_OpenSSL_encrypt' },
-              { text: 'python 学习笔记', link: '/2024/10/use_python' },
+              { text: 'git-sizer 学习笔记', link: '/2024/10/git-izer_note' },
+              { text: 'lazy.nvim 学习笔记', link: '/2024/10/lazy.nvim_note' },
+              { text: 'Linux 学习笔记', link: '/2024/10/Linux_note' },
+              { text: 'OpenSSL 加解密学习笔记', link: '/2024/10/OpenSSL_encrypt_note' },
+              { text: 'python 学习笔记', link: '/2024/10/python_note' },
               { text: 'Windows 删除右键菜单', link: '/2024/10/windows_delete_right_click_menu' },
             ]
           },
@@ -48,7 +48,7 @@ export default withMermaid(
             collapsed: true,
             items: [
               { text: '个人自用软件', link: '/2024/08/personal_software' },
-              { text: '用 you-get 下载B站视频', link: '/2024/08/use_you-get' },
+              { text: '用 you-get 下载B站视频', link: '/2024/08/you-get_note' },
               { text: 'B站嵌入代码', link: '/2024/08/bilibili_embedding_code' },
             ]
           },
@@ -58,7 +58,7 @@ export default withMermaid(
             items: [
               { text: 'git-crypt 官方文档', link: '/2024/07/git-crypt_official_doc' },
               { text: 'git-crypt 官方文档中文翻译', link: '/2024/07/git-crypt_official_doc_zh' },
-              { text: 'git-crypt 学习笔记', link: '/2024/07/use_git-crypt' },
+              { text: 'git-crypt 学习笔记', link: '/2024/07/git-crypt_note' },
               { text: '生成 GPG 密钥', link: '/2024/07/gen_GPG_key' },
             ]
           },
@@ -87,15 +87,15 @@ export default withMermaid(
               { text: '神秘博士复活时间表', link: '/2024/04/former_doctor_who' },
               { text: '手机QQ文件存储路径', link: '/2024/04/android_QQ_file_storage_path' },
               { text: '现代加密学', link: '/2024/04/modern_cryptography' },
-              { text: '正则表达式教程', link: '/2024/04/use_regex' },
-              { text: 'ffmpeg 自用命令', link: '/2024/04/use_ffmpeg' },
+              { text: '正则表达式教程', link: '/2024/04/regex_note' },
+              { text: 'ffmpeg 自用命令', link: '/2024/04/ffmpeg_note' },
               { text: 'git 分支操作', link: '/2024/04/git_branch' },
               { text: 'git 命令手册', link: '/2024/04/git_Cli' },
               { text: 'GPG 在通信中的简单理解', link: '/2024/04/gpg_communication' },
-              { text: 'LaTeX 与希腊字母对照表', link: '/2024/04/use_LaTeX' },
+              { text: 'LaTeX 与希腊字母对照表', link: '/2024/04/LaTeX_note' },
               { text: 'obsidian快捷键', link: '/2024/04/obsidian_shortcut_key' },
-              { text: 'vim 学习笔记', link: '/2024/04/use_vim' },
-              { text: 'vscode', link: '/2024/04/use_vscode' },
+              { text: 'vim 学习笔记', link: '/2024/04/vim_note' },
+              { text: 'vscode', link: '/2024/04/vscode_note' },
             ]
           },
         ]
