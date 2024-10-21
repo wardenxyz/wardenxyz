@@ -19,7 +19,7 @@ hero:
       link: /categories
 features:
   - title: 2024 年 10 月
-    link: /2024/10/use_vitepress
+    link: /2024/10/vitepress_note
   - title: 2024 年 9 月
     link: /2024/09/git_force_overwrite_local_repo
   - title: 2024 年 8 月
