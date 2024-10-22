@@ -75,7 +75,7 @@ jobs:
 
     - name: 复制生成的文件到目标仓库 # 根据 SSG 来确定复制文件路径 # [!code highlight]
       run: |
-        cp -r html/* target_repo/
+        rsync -av --delete html/ target_repo/
 
     - name: 提交并推送更改到目标仓库
       run: |
