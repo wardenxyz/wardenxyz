@@ -11,7 +11,7 @@
 
 ### 十月
 
-- [git 重置当前分支](/mkdocs/2024/10/git_reset.md)
+- [git 重置当前分支](<mkdocs/2024/10/git_reset.md>)
 - [vitepress 学习笔记](mkdocs/2024/10/vitepress_note.md)
 - [Windows 删除右键菜单](mkdocs/2024/10/windows_delete_right_click_menu.md)
 - [GitHub page 搭建学习笔记](mkdocs/2024/10/deploy_gitHub_page.md)
