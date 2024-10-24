@@ -1,0 +1,16 @@
+// 这是 zed 快捷键，不要在这里修改，这里是保存，这里是保存备份文件
+[
+    {
+        "context": "Workspace",
+        "bindings": {
+            // "shift shift": "file_finder::Toggle"
+        }
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            "ctrl-i": "editor::ShowCompletions",
+            // "j k": ["workspace::SendKeystrokes", "escape"]
+        }
+    }
+]
