@@ -1,0 +1,90 @@
+{
+    "blog 样板": {
+        "body": [
+            "---",
+            "prev: false",
+            "next: false",
+            "date: ${1}",
+            "tags:",
+            "- ${2}",
+            "categories:",
+            "- ${3}",
+            "---",
+            "",
+            "# ${4:文章标题}",
+            "",
+            "${5:文章内容}",
+            "",
+            "$0"
+        ],
+        "description": "blog 样板",
+        "prefix": "post"
+    },
+      "GitHub blockquote": {
+          "prefix": "tip",
+          "body": [
+              "> [!TIP]",
+              "> $1"
+          ],
+          "description": "GFM blockquote"
+      },
+      "哭脸表情": {
+          "body": [
+              "😭"
+          ],
+          "description": "哭脸表情",
+          "prefix": "cry"
+      },
+      "嘻嘻表情": {
+          "body": [
+              "😁"
+          ],
+          "description": "嘻嘻表情",
+          "prefix": "hehe"
+      },
+      "joker": {
+          "body": [
+              "🤡"
+          ],
+          "description": "小丑表情",
+          "prefix": "joker"
+      },
+      "笑脸表情": {
+          "body": [
+              "😊"
+          ],
+          "description": "笑脸表情",
+          "prefix": "smile"
+      },
+      "难过表情": {
+          "body": [
+              "😔"
+          ],
+          "description": "难过表情",
+          "prefix": "sad"
+      },
+      "鼓掌表情": {
+          "body": [
+              "👏"
+          ],
+          "description": "鼓掌表情",
+          "prefix": "clap"
+      },
+      "拉炮彩带表情": {
+          "body": [
+              "🎉"
+          ],
+          "description": "拉炮彩带表情",
+          "prefix": "tada"
+      },
+      "命令块": {
+          "body": [
+              "```bash",
+              "$1",
+              "```",
+              "$0"
+          ],
+          "description": "命令块",
+          "prefix": "bash"
+      }
+  }
