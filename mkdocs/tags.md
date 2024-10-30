@@ -111,6 +111,10 @@ footer: false
 
 - [OpenSSL 加解密学习笔记](<2024/10/OpenSSL_encrypt_note.md>)
 
+## typst
+
+- [Typst 试用](<2024/10/typst_note.md>)
+
 ## vitepress
 
 - [vitepress 学习笔记](<2024/10/vitepress_note.md>)

@@ -38,7 +38,7 @@ jobs:
 
     - name: 复制生成的文件到目标仓库
       run: |
-        rsync -av --delete html/* target_repo/
+        cp -a html/. target_repo/
 
     - name: 提交并推送更改到目标仓库
       run: |
