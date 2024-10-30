@@ -33,7 +33,6 @@ footer: false
 - [Linux 学习笔记](<2024/10/Linux_note.md>)
 - [OpenSSL 加解密学习笔记](<2024/10/OpenSSL_encrypt_note.md>)
 - [python 学习笔记](<2024/10/python_note.md>)
-- [Typst 试用](<2024/10/typst_note.md>)
 - [vitepress 学习笔记](<2024/10/vitepress_note.md>)
 - [Windows 删除右键菜单](<2024/10/windows_delete_right_click_menu.md>)
 
