@@ -49,6 +49,8 @@ jobs:
     steps:
     - name: 检出仓库
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
     - name: 设置 Node.js 环境 # 根据 SSG 来确定环境 # [!code highlight]
       uses: actions/setup-node@v3
