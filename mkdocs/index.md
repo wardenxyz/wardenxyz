@@ -18,6 +18,8 @@ hero:
       text: 分类
       link: /categories
 features:
+  - title: 2024 年 11 月
+    link: /2024/11/Typst_note
   - title: 2024 年 10 月
     link: /2024/10/vitepress_note
   - title: 2024 年 9 月

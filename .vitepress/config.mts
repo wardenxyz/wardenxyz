@@ -22,6 +22,13 @@ export default withMermaid(
       sidebar: {
         '/2024/': [
           {
+            text: '2024 年 11 月',
+            collapsed: true,
+            items: [
+              { text: 'Typst 笔记', link: '/2024/11/Typst_note' },
+            ]
+          },
+          {
             text: '2024 年 10 月',
             collapsed: true,
             items: [
