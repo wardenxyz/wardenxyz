@@ -9,6 +9,10 @@
 
 ## 2024
 
+### 十一月
+
+- [Typst 笔记](<mkdocs/2024/11/Typst_note.md>)
+
 ### 十月
 
 - [git 重置当前分支](<mkdocs/2024/10/git_reset.md>)

@@ -35,6 +35,7 @@ footer: false
 - [python 学习笔记](<2024/10/python_note.md>)
 - [vitepress 学习笔记](<2024/10/vitepress_note.md>)
 - [Windows 删除右键菜单](<2024/10/windows_delete_right_click_menu.md>)
+- [Typst 笔记](<2024/11/Typst_note.md>)
 
 ## 生活
 
