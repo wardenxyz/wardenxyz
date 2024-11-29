@@ -12,7 +12,31 @@ categories:
 
 [Tyspt 官方文档](https://typst.app/docs)
 
-## Typst 语法
+## 导出命令
+
+- 默认导出为 pdf
+
+```bash
+typst c main.typ 
+```
+
+- 导出第四页到 output-4.pdf
+
+```bash
+typst c main.typ output-4.pdf -f pdf --pages 4 
+```
+
+- 导出第四页到 output-4.png
+
+```bash
+typst c main.typ output-4.png -f png --pages 4 
+```
+
+- 导出第四页到 output-4.svg
+
+```bash
+typst c main.typ output-4.svg -f svg --pages 4 
+```
 
 ## 标题
 
