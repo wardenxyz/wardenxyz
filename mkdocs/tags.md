@@ -35,6 +35,7 @@ footer: false
 - [git 强制覆盖本地仓库](<2024/09/git_force_overwrite_local_repo.md>)
 - [git-sizer 学习笔记](<2024/10/git-izer_note.md>)
 - [git 重置当前分支](<2024/10/git_reset.md>)
+- [Pull Request 的步骤](<2024/12/pull_request_steps.md>)
 
 ## GPG
 
@@ -118,4 +119,8 @@ footer: false
 ## Typst
 
 - [Typst 笔记](<2024/11/Typst_note.md>)
+
+## pull request
+
+- [Pull Request 的步骤](<2024/12/pull_request_steps.md>)
 

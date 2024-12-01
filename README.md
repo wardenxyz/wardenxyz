@@ -9,6 +9,10 @@
 
 ## 2024
 
+### 十二月
+
+- [Pull Request 的步骤](mkdocs/2024/12/pull_request_steps.md)
+
 ### 十一月
 
 - [Typst 笔记](<mkdocs/2024/11/Typst_note.md>)

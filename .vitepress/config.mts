@@ -22,6 +22,13 @@ export default withMermaid(
       sidebar: {
         '/2024/': [
           {
+            text: '2024 年 12 月',
+            collapsed: true,
+            items: [
+              { text: 'Pull Request 的步骤', link: '/2024/12/pull_request_steps' },
+            ]
+          },
+          {
             text: '2024 年 11 月',
             collapsed: true,
             items: [
