@@ -17,7 +17,7 @@ export default withMermaid(
         { text: '标签', link: '/tags' },
         { text: '分类', link: '/categories' },
         { text: '2024 年', link: '/2024/04/remove_file_from_git_history' },
-        { text: '2025 年', link: '/2025/01/Lazynvim' }
+        { text: '2025 年', link: '/2025/01/ollama_run_deepseek' }
       ],
 
       sidebar: {
