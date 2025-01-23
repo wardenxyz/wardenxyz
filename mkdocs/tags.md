@@ -124,3 +124,15 @@ footer: false
 
 - [Pull Request 的步骤](<2024/12/pull_request_steps.md>)
 
+## ollama
+
+- [ollama 运行 DeepSeek 模型](<2025/01/ollama_run_deepseek.md>)
+
+## AI
+
+- [ollama 运行 DeepSeek 模型](<2025/01/ollama_run_deepseek.md>)
+
+## DeepSeek
+
+- [ollama 运行 DeepSeek 模型](<2025/01/ollama_run_deepseek.md>)
+

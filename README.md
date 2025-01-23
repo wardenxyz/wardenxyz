@@ -7,6 +7,12 @@
 > [!NOTE]
 > 📌 Pin: [vitepress 学习笔记](mkdocs/2024/10/vitepress_note.md)
 
+## 2025
+
+### 一月
+
+- [ollama 运行 DeepSeek 模型](/mkdocs/2025/01/ollama_run_deepseek.md)
+
 ## 2024
 
 ### 十二月

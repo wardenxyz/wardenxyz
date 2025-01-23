@@ -37,6 +37,7 @@ footer: false
 - [Windows 删除右键菜单](<2024/10/windows_delete_right_click_menu.md>)
 - [Typst 笔记](<2024/11/Typst_note.md>)
 - [Pull Request 的步骤](<2024/12/pull_request_steps.md>)
+- [ollama 运行 DeepSeek 模型](<2025/01/ollama_run_deepseek.md>)
 
 ## 生活
 

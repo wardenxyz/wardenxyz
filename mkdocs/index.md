@@ -18,6 +18,8 @@ hero:
       text: 分类
       link: /categories
 features:
+  - title: 2025 年 1 月
+    link: /2025/01/ollama_run_deepseek
   - title: 2024 年 12 月
     link: /2024/12/pull_request_steps
   - title: 2024 年 11 月

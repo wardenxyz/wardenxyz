@@ -16,10 +16,20 @@ export default withMermaid(
         { text: '首页', link: '/' },
         { text: '标签', link: '/tags' },
         { text: '分类', link: '/categories' },
-        { text: '2024 年', link: '/2024/04/remove_file_from_git_history' }
+        { text: '2024 年', link: '/2024/04/remove_file_from_git_history' },
+        { text: '2025 年', link: '/2025/01/Lazynvim' }
       ],
 
       sidebar: {
+        '/2025/': [
+          {
+            text: '2025 年 1 月',
+            collapsed: true,
+            items: [
+              { text: 'ollama 运行 DeepSeek 模型', link: '/2025/01/ollama_run_deepseek' },
+            ]
+          },
+        ],
         '/2024/': [
           {
             text: '2024 年 12 月',
