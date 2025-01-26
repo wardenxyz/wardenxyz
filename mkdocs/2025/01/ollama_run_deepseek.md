@@ -25,13 +25,13 @@ categories:
 
 ## 步骤
 
-1. 下载 ollama
+### 1. 下载 ollama
 
 https://ollama.com/download
 
 Windows 下载好后要把 ollama 加入到环境变量中
 
-2. 下载模型
+### 2. 下载模型
 
 在魔搭社区找到[这个网页](https://www.modelscope.cn/collections/DeepSeek-R1-Distill-GGUF-eec5fee2f2ee42)，找到 `DeepSeek-R1-Distill-Qwen-1.5B`，下载模型：
 
@@ -39,7 +39,7 @@ Windows 下载好后要把 ollama 加入到环境变量中
 git clone https://www.modelscope.cn/unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF.git
 ```
 
-3. 创建 Modelfile 文件
+### 3. 创建 Modelfile 文件
 
 进入 DeepSeek-R1-Distill-Qwen-1.5B-GGUF 文件夹
 
@@ -53,7 +53,7 @@ cd DeepSeek-R1-Distill-Qwen-1.5B-GGUF
 FROM D:\workspace\R1-Qwen\DeepSeek-R1-Distill-Qwen-1.5B-GGUF\DeepSeek-R1-Distill-Qwen-1.5B-Q2_K.gguf
 ```
 
-4. 把本地模型加入到 ollama 中
+### 4. 把本地模型加入到 ollama 中
 
 ```bash
 ollama create DeepSeek-R1-Distill-Qwen-1.5B
@@ -83,7 +83,7 @@ NAME                                    ID              SIZE      MODIFIED
 DeepSeek-R1-Distill-Qwen-1.5B:latest    3c5f0a638147    752 MB    2 minutes ago
 ```
 
-5. 运行
+### 5. 运行
 
 ```bash
 ollama run DeepSeek-R1-Distill-Qwen-1.5B:latest
