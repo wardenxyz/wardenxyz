@@ -23,6 +23,13 @@ export default withMermaid(
       sidebar: {
         '/2025/': [
           {
+            text: '2025 年 2 月',
+            collapsed: true,
+            items: [
+              { text: '启蒙思想下的中国科技焦虑', link: '/2025/02/Tech_Anxiety_in_China' },
+            ]
+          },
+          {
             text: '2025 年 1 月',
             collapsed: true,
             items: [

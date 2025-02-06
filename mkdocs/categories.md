@@ -53,3 +53,7 @@ footer: false
 - [第三方邮箱客户端配置QQmail & Foxmail](<2024/04/qqmail_third_party_config.md>)
 - [个人自用软件](<2024/08/personal_software.md>)
 
+## 转裁
+
+- [启蒙思想下的中国科技焦虑](<2025/02/Tech_Anxiety_in_China.md>)
+

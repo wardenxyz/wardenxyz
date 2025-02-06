@@ -136,3 +136,7 @@ footer: false
 
 - [ollama 运行 DeepSeek 模型](<2025/01/ollama_run_deepseek.md>)
 
+## 知乎好文
+
+- [启蒙思想下的中国科技焦虑](<2025/02/Tech_Anxiety_in_China.md>)
+

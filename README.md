@@ -9,9 +9,13 @@
 
 ## 2025
 
+### 二月
+
+- [启蒙思想下的中国科技焦虑](mkdocs/2025/02/Tech_Anxiety_in_China.md)
+
 ### 一月
 
-- [ollama 运行 DeepSeek 模型](/mkdocs/2025/01/ollama_run_deepseek.md)
+- [ollama 运行 DeepSeek 模型](mkdocs/2025/01/ollama_run_deepseek.md)
 
 ## 2024
 
