@@ -8,7 +8,7 @@ export default withMermaid(
     srcDir: 'mkdocs',
     outDir: 'html',
     cacheDir: 'cache',
-    title: "学习笔记",
+    title: "随便写写",
     description: "个人站点",
     themeConfig: {
 

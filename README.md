@@ -1,4 +1,4 @@
-# 学习笔记
+# 随便写写
 
 分类页面：[categories](mkdocs/categories.md)
 

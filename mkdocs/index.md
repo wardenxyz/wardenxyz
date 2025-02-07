@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "学习笔记"
-  text: "这里放我的学习笔记"
+  name: "随便写写"
+  text: "瞎搞的网站"
   tagline: 按月份归档，不过等我毕业了应该就不会更新了
   image:
     light: /home-light.svg # 主页右侧的图
@@ -12,11 +12,14 @@ hero:
     alt: VitePress.logo
   actions:
     - theme: brand
-      text: 标签
-      link: /tags
+      text: GitHub
+      link: https://github.com/wardenxyz/wardenxyz
     - theme: alt
       text: 分类
       link: /categories
+    - theme: alt
+      text: 标签
+      link: /tags
 features:
   - title: 2025 年 2 月
     link: /2025/02/Tech_Anxiety_in_China
