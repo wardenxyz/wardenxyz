@@ -11,7 +11,7 @@ jobs:
   update-indexes:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 添加这一行
+      contents: write
 
     steps:
       - uses: actions/checkout@v3
@@ -34,7 +34,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md tags.md categories.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update blog indexes"
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update blog indexes at $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')"
 
       - name: 推送索引
         uses: ad-m/github-push-action@master

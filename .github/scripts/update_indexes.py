@@ -96,7 +96,7 @@ def update_tags(posts):
                 date_str = post.metadata['date'].strftime('%Y-%m-%d')
                 title = post.metadata['title']
                 path = post.metadata['path'].replace('\\', '/')
-                content += f"- {date_str} [{title}]({path})\n"
+                content += f"- {date_str} [{title}](<{path}>)\n"
             except Exception as e:
                 print(f"Error processing post in tags: {e}")
                 continue
@@ -131,7 +131,7 @@ def update_categories(posts):
                 date_str = post.metadata['date'].strftime('%Y-%m-%d')
                 title = post.metadata['title']
                 path = post.metadata['path'].replace('\\', '/')
-                content += f"- {date_str} [{title}]({path})\n"
+                content += f"- {date_str} [{title}](<{path}>)\n"
             except Exception as e:
                 print(f"Error processing post in categories: {e}")
                 continue
