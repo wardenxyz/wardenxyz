@@ -1,10 +1,8 @@
 ---
 title: README 文档结构
 date: 2024-06-01
-tags:
-- GitHub
-category:
-- 计算机
+tags: [GitHub]
+category: [计算机]
 ---
 
 # README 文档结构

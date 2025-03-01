@@ -2,8 +2,7 @@
 prev: false
 next: false
 date: 2024-04-08
-tags:
-- git
+tags: [git]
 categories:
 - 计算机
 ---

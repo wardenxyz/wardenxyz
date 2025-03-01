@@ -1,10 +1,8 @@
 ---
 title: git 分支操作
 date: 2024-04-08
-tags:
-- git
-category:
-- 计算机
+tags: [git]
+category: [计算机]
 ---
 
 # git 分支操作

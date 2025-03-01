@@ -1,10 +1,8 @@
 ---
 title: GitHub page 搭建学习笔记
 date: 2024-10-09
-tags:
-- GitHub
-category:
-- 计算机
+tags: [GitHub]
+category: [计算机]
 ---
 
 # GitHub page 搭建学习笔记

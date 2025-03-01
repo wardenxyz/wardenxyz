@@ -1,10 +1,8 @@
 ---
 title: ffmpeg 自用命令
 date: 2024-04-08
-tags:
-- ffmpeg
-category:
-- 计算机
+tags: [ffmpeg]
+category: [计算机]
 ---
 
 # ffmpeg 自用命令

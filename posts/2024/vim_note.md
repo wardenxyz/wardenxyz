@@ -1,10 +1,8 @@
 ---
 title: vim 学习笔记
 date: 2024-04-08
-tags:
-- vim
-category:
-- 计算机
+tags: [vim]
+category: [计算机]
 ---
 
 # vim 学习笔记

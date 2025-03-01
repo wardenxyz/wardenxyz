@@ -1,12 +1,8 @@
 ---
 title: ollama 运行 DeepSeek 模型
 date: 2025-01-23
-tags:
-- ollama
-- AI
-- DeepSeek
-category:
-- 计算机
+tags: [ollama, AI, DeepSeek]
+category: [计算机]
 ---
 
 # ollama 运行 DeepSeek 模型

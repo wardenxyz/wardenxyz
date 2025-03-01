@@ -1,11 +1,8 @@
 ---
 title: OpenSSL 加解密学习笔记
 date: 2024-10-06
-tags:
-- OpenSSL
-- 加密
-category:
-- 计算机
+tags: [OpenSSL, 加密]
+category: [计算机]
 ---
 
 # OpenSSL 加解密学习笔记

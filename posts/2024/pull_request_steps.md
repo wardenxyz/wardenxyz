@@ -1,11 +1,8 @@
 ---
 title: Pull Request 的步骤
 date: 2024-12-01
-tags:
-- git
-- pull request
-category:
-- 计算机
+tags: [git, pull request]
+category: [计算机]
 ---
 
 # Pull Request 的步骤

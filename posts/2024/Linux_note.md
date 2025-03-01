@@ -1,10 +1,8 @@
 ---
 title: Linux 学习笔记
 date: 2024-10-07
-tags:
-- Linux
-category:
-- 计算机
+tags: [Linux]
+category: [计算机]
 ---
 
 # Linux 学习笔记

@@ -1,10 +1,8 @@
 ---
 title: LaTeX 与希腊字母对照表
 date: 2024-04-08
-tags:
-- LaTeX
-category:
-- 数学
+tags: [LaTeX]
+category: [数学]
 ---
 
 # LaTeX 与希腊字母对照表

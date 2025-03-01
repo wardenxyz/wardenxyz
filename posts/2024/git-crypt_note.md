@@ -1,11 +1,8 @@
 ---
 title: git-crypt 学习笔记
 date: 2024-07-10
-tags:
-- git
-- git-crypt
-category:
-- 计算机
+tags: [git, git-crypt]
+category: [计算机]
 ---
 
 # git-crypt 学习笔记

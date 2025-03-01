@@ -1,10 +1,8 @@
 ---
 title: git-sizer 学习笔记
 date: 2024-10-01
-tags:
-- git
-category:
-- 计算机
+tags: [git]
+category: [计算机]
 ---
 
 # git-sizer 学习笔记

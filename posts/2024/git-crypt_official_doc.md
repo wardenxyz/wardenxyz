@@ -1,11 +1,8 @@
 ---
 title: git-crypt 官方文档
 date: 2024-07-08
-tags:
-- git-crypt
-- git
-category:
-- 计算机
+tags: [git-crypt, git]
+category: [计算机]
 ---
 
 # git-crypt 官方文档

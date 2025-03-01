@@ -1,10 +1,8 @@
 ---
 title: 生成 GPG 密钥
 date: 2024-07-10
-tags:
-- GPG
-category:
-- 计算机
+tags: [GPG]
+category: [计算机]
 ---
 
 # 生成 GPG 密钥

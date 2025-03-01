@@ -1,10 +1,8 @@
 ---
 title: git 命令手册
 date: 2024-04-08
-tags:
-- git
-category:
-- 计算机
+tags: [git]
+category: [计算机]
 ---
 
 # git 命令手册

@@ -1,10 +1,8 @@
 ---
 title: obsidian快捷键
 date: 2024-04-08
-tags:
-- obsidian
-category:
-- 软件
+tags: [obsidian]
+category: [软件]
 ---
 
 # obsidian快捷键

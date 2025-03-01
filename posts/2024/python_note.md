@@ -1,10 +1,8 @@
 ---
 title: python 学习笔记
 date: 2024-10-06
-tags:
-- python
-category:
-- 计算机
+tags: [python]
+category: [计算机]
 ---
 
 # python 学习笔记

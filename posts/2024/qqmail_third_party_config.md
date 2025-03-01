@@ -1,10 +1,8 @@
 ---
 title: 第三方邮箱客户端配置QQmail & Foxmail
 date: 2024-04-08
-tags:
-- 邮箱
-category:
-- 软件
+tags: [邮箱]
+category: [软件]
 ---
 
 # 第三方邮箱客户端配置QQmail & Foxmail

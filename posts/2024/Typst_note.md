@@ -1,10 +1,8 @@
 ---
 title: Typst 笔记
 date: 2024-11-27
-tags:
-- Typst
-category:
-- 计算机
+tags: [Typst]
+category: [计算机]
 ---
 
 # Typst 笔记

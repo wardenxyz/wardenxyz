@@ -1,10 +1,8 @@
 ---
 title: 现代加密学
 date: 2024-04-08
-tags:
-- 加密
-category:
-- 计算机
+tags: [加密]
+category: [计算机]
 ---
 
 # 现代加密学

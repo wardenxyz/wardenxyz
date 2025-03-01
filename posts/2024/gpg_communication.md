@@ -1,11 +1,8 @@
 ---
 title: GPG 在通信中的简单理解
 date: 2024-04-08
-tags:
-- GPG
-- 加密
-category:
-- 计算机
+tags: [GPG, 加密]
+category: [计算机]
 ---
 
 # GPG 在通信中的简单理解

@@ -1,10 +1,8 @@
 ---
 title: vscode
 date: 2024-04-08
-tags:
-- vscode
-category:
-- 计算机
+tags: [vscode]
+category: [计算机]
 ---
 
 # vscode

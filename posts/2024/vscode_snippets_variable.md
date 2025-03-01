@@ -1,10 +1,8 @@
 ---
 title: vscode snippets 预置变量
 date: 2024-05-01
-tags:
-- vscode
-category:
-- 计算机
+tags: [vscode]
+category: [计算机]
 ---
 
 # vscode snippets 预置变量

@@ -1,12 +1,8 @@
 ---
 title: 个人自用软件
 date: 2024-08-01
-tags:
-- Windows
-- Android
-category:
-- 计算机
-- 软件
+tags: [Windows, Android]
+category: [计算机, 软件]
 ---
 
 # 个人自用软件

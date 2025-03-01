@@ -1,10 +1,8 @@
 ---
 title: git 重置当前分支
 date: 2024-10-16
-tags:
-- git
-category:
-- 计算机
+tags: [git]
+category: [计算机]
 ---
 
 # git 重置当前分支

@@ -1,10 +1,8 @@
 ---
 title: B站嵌入代码
 date: 2024-08-01
-tags:
-- B站
-category:
-- 计算机
+tags: [B站]
+category: [计算机]
 ---
 
 # B站嵌入代码

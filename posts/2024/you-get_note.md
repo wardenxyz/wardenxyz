@@ -1,11 +1,8 @@
 ---
 title: 用 you-get 下载B站视频
 date: 2024-08-01
-tags:
-- python
-- B站
-category:
-- 计算机
+tags: [python, B站]
+category: [计算机]
 ---
 
 # 用 you-get 下载B站视频

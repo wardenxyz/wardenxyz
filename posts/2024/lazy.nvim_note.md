@@ -1,11 +1,8 @@
 ---
 title: lazy.nvim 学习笔记
 date: 2024-10-04
-tags:
-- vim
-- lazy.nvim
-category:
-- 计算机
+tags: [vim, lazy.nvim]
+category: [计算机]
 ---
 
 # lazy.nvim 学习笔记

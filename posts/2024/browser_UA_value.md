@@ -1,10 +1,8 @@
 ---
 title: 浏览器UA值
 date: 2024-04-08
-tags:
-- 浏览器
-category:
-- 计算机
+tags: [浏览器]
+category: [计算机]
 ---
 
 # 浏览器UA值

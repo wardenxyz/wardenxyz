@@ -1,10 +1,8 @@
 ---
 title: vitepress 学习笔记
 date: 2024-10-12
-tags:
-- vitepress
-category:
-- 计算机
+tags: [vitepress]
+category: [计算机]
 ---
 
 # vitepress 学习笔记

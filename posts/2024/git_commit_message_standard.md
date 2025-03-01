@@ -1,10 +1,8 @@
 ---
 title: git commit message 规范
 date: 2024-06-01
-tags:
-- git
-category:
-- 计算机
+tags: [git]
+category: [计算机]
 ---
 
 # git commit message 规范
