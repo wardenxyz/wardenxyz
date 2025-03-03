@@ -1,5 +1,9 @@
 # Categories
 
+## Uncategorized
+
+- 2024-04-08 [彻底从 git 提交中移除文件](<posts/2024/remove_file_from_git_history.md>)
+
 ## 数学
 
 - 2024-04-08 [LaTeX 与希腊字母对照表](<posts/2024/LaTeX_note.md>)
