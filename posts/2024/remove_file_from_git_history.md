@@ -1,6 +1,5 @@
 ---
-prev: false
-next: false
+title: 彻底从 git 提交中移除文件
 date: 2024-04-08
 tags: [git]
 categories:
