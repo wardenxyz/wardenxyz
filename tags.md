@@ -107,6 +107,10 @@
 - 2024-05-01 [vscode snippets 预置变量](<posts/2024/vscode_snippets_variable.md>)
 - 2024-04-08 [vscode](<posts/2024/vscode_note.md>)
 
+## zed
+
+- 2025-03-11 [zed 使用笔记](<posts/2025/zed_use.md>)
+
 ## 加密
 
 - 2024-10-06 [OpenSSL 加解密学习笔记](<posts/2024/OpenSSL_encrypt_note.md>)

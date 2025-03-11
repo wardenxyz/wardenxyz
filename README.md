@@ -10,6 +10,10 @@ Welcome to my GitHub-based blog! This is a minimalist blog that uses pure markdo
 <!-- BLOG-POST-LIST:START -->
 ## 2025 年
 
+### 3 月
+
+- 2025-03-11 [zed 使用笔记](<posts/2025/zed_use.md>)
+
 ### 2 月
 
 - 2025-02-06 [启蒙思想下的中国科技焦虑](<posts/2025/Tech_Anxiety_in_China.md>)

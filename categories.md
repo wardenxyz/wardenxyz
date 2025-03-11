@@ -10,6 +10,7 @@
 
 ## 计算机
 
+- 2025-03-11 [zed 使用笔记](<posts/2025/zed_use.md>)
 - 2025-01-23 [ollama 运行 DeepSeek 模型](<posts/2025/ollama_run_deepseek.md>)
 - 2024-12-01 [Pull Request 的步骤](<posts/2024/pull_request_steps.md>)
 - 2024-11-27 [Typst 笔记](<posts/2024/Typst_note.md>)
