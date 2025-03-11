@@ -1,6 +1,5 @@
 import os
 import frontmatter
-from datetime import datetime
 from collections import defaultdict
 
 def get_posts():
