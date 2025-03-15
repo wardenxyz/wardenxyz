@@ -12,6 +12,7 @@ Welcome to my GitHub-based blog! This is a minimalist blog that uses pure markdo
 
 ### 3 月
 
+- 2025-03-15 [conda 使用笔记](<posts/2025/conda_note.md>)
 - 2025-03-14 [在 Zed Editor 中配置 OpenAI API 兼容的模型](<posts/2025/Zed_set_OpenAI_API_Compatible_model.md>)
 - 2025-03-11 [zed 使用笔记](<posts/2025/zed_use.md>)
 

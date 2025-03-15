@@ -48,6 +48,10 @@
 
 - 2024-08-01 [个人自用软件](<posts/2024/personal_software.md>)
 
+## conda
+
+- 2025-03-15 [conda 使用笔记](<posts/2025/conda_note.md>)
+
 ## ffmpeg
 
 - 2024-04-08 [ffmpeg 自用命令](<posts/2024/ffmpeg_note.md>)
@@ -90,6 +94,7 @@
 
 ## python
 
+- 2025-03-15 [conda 使用笔记](<posts/2025/conda_note.md>)
 - 2024-10-06 [python 学习笔记](<posts/2024/python_note.md>)
 - 2024-08-01 [用 you-get 下载B站视频](<posts/2024/you-get_note.md>)
 
