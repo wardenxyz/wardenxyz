@@ -39,13 +39,13 @@ C:\Users\admin\AppData\Roaming\Zed
 }
 ```
 
-zed snippets 没有 scope 概念，如果你想创建针对 JavaScript 文件的代码片段，你的文件将是 `javascript.json`
+如果你想创建针对 JavaScript 文件的代码片段，你的文件将是 `javascript.json`
 
 ## 格式化
 
 `ctrl+shift+i` 保存加格式化
 
-## 我的 Zed 配置(2025-03-14 更新)
+## 我的 Zed 配置(2025-03-21 更新)
 
 ```json
 {
@@ -54,15 +54,19 @@ zed snippets 没有 scope 概念，如果你想创建针对 JavaScript 文件的
 	// "vim_mode": true, //vim 模式
 	// "relative_line_numbers": true, //相对行号
 
+	"show_edit_predictions": false,
 	"theme": "One Dark", //主题
 
 	"buffer_line_height": "comfortable", //行高
 
+	"buffer_font_family": "JetBrains Mono", //编辑区字体
+	"buffer_font_size": 17, //编辑区字体大小
+	"buffer_font_fallbacks": ["JetBrains Mono"], //编辑区后备字体
+	"ui_font_family": "Zed Plex Mono", //UI 字体
 	"ui_font_size": 17, //UI 大小
-	"buffer_font_size": 17, //字体大小
 	"show_whitespaces": "all", //显示空格
 	"buffer_font_features": {
-		"calt": false //连字
+		"calt": false //连字，false 表示关闭
 	},
 
 	// AI 助手
@@ -87,28 +91,26 @@ zed snippets 没有 scope 概念，如果你想创建针对 JavaScript 文件的
 			"api_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
 			"available_models": [
 				{
-					"name": "qwen-max-0125",
-					"display_name": "Qwen2.5-Max",
-					"max_tokens": 32768,
-					"max_output_tokens": 2056
+					"name": "qwq-plus",
+					"display_name": "QwQ-Plus",
+					"max_tokens": 131072,
+					"max_output_tokens": 8192
+				},
+				{
+					"name": "qwq-32b",
+					"display_name": "QwQ-32B",
+					"max_tokens": 131072,
+					"max_output_tokens": 8192
 				},
 				{
 					"name": "deepseek-r1",
 					"display_name": "DeepSeek-R1",
-					"max_tokens": 65792,
-					"max_output_tokens": 2056
-				},
-				{
-					"name": "qwq-plus",
-					"display_name": "QwQ-Plus",
-					"max_tokens": 131072,
-					"max_output_tokens": 2056
+					"max_tokens": 65792
 				},
 				{
 					"name": "deepseek-v3",
 					"display_name": "DeepSeek-V3",
-					"max_tokens": 65792,
-					"max_output_tokens": 2056
+					"max_tokens": 65792
 				}
 			],
 			"version": "1"
@@ -116,10 +118,18 @@ zed snippets 没有 scope 概念，如果你想创建针对 JavaScript 文件的
 	},
 
 	"features": {
-		"edit_prediction_provider": "copilot" // tab 编辑预测（不可选自己的模型）
+		"edit_prediction_provider": "zed" // tab 编辑预测（不可选自己的模型）
 	},
 
-	"enable_language_server": true, //language_server 服务
+	"enable_language_server": true, //lsp 功能
+
+	"jupyter": {
+		"enabled": false
+	},
+
+	"terminal": {
+		"copy_on_select": true //终端选择即复制
+	},
 
 	//顶部功能区
 	"tab_bar": {
@@ -150,6 +160,10 @@ zed snippets 没有 scope 概念，如果你想创建针对 JavaScript 文件的
 
 	//滚动条
 	"scrollbar": {
+		"axes": {
+			"horizontal": false,
+			"vertical": true
+		},
 		"show": "always"
 	},
 
@@ -159,7 +173,7 @@ zed snippets 没有 scope 概念，如果你想创建针对 JavaScript 文件的
 		"inline_blame": {
 			"enabled": true,
 			"show_commit_summary": false, //显示提交信息
-			"delay_ms": 500
+			"delay_ms": 200
 		}
 	},
 
@@ -167,11 +181,69 @@ zed snippets 没有 scope 概念，如果你想创建针对 JavaScript 文件的
 
 	"languages": {
 		"Typst": {
-			"show_edit_predictions": true
+			"show_edit_predictions": false,
+			"format_on_save": "on",
+			"formatter": {
+				"external": {
+					"command": "typstyle"
+				}
+			}
 		},
+		// 禁用以下语言的服务
 		"Markdown": {
+			"enable_language_server": false,
+			"show_edit_predictions": false,
+			"format_on_save": "on" //保存时自动格式
+		},
+		"Rust": {
+			"enable_language_server": false,
+			"show_edit_predictions": false,
+			"format_on_save": "off"
+		},
+		"JavaScript": {
+			"enable_language_server": false,
+			"show_edit_predictions": false,
+			"format_on_save": "off"
+		},
+		"TypeScript": {
+			"enable_language_server": false,
+			"show_edit_predictions": false,
+			"format_on_save": "off"
+		},
+		"Go": {
+			"enable_language_server": false,
+			"show_edit_predictions": false,
+			"format_on_save": "off"
+		},
+		"HTML": {
+			"enable_language_server": false,
+			"show_edit_predictions": false,
+			"format_on_save": "off"
+		},
+		"Java": {
+			"enable_language_server": false,
+			"show_edit_predictions": false,
+			"format_on_save": "off"
+		},
+		"Kotlin": {
+			"enable_language_server": false,
+			"show_edit_predictions": false,
+			"format_on_save": "off"
+		},
+		"PHP": {
+			"enable_language_server": false,
+			"show_edit_predictions": false,
+			"format_on_save": "off"
+		},
+		"Python": {
+			"enable_language_server": false,
 			"show_edit_predictions": true,
-			"format_on_save": "on" //保存时自动格式化
+			"format_on_save": "off"
+		},
+		"Vue": {
+			"enable_language_server": false,
+			"show_edit_predictions": false,
+			"format_on_save": "off"
 		}
 	},
 
@@ -210,17 +282,21 @@ zed snippets 没有 scope 概念，如果你想创建针对 JavaScript 文件的
 	},
 
 	"tabs": {
-		"file_icons": true //顶部 tab 页的文件图标
+		"file_icons": true, //顶部 tab 页的文件图标
+		"git_status": true // 顶部 tab 页显示 git 状态
 	},
 
 	"confirm_quit": true, //关闭应用程序之前是否提示用户
 
 	"soft_wrap": "editor_width", //软换行
 
+	"auto_update": false,
+
 	"lsp": {
-		"omnisharp": {
-			"binary": {
-				"ignore_system_version": true
+		"tinymist": {
+			"initialization_options": {
+				// "exportPdf": "onSave",//保存时编译 pdf
+				"outputPath": "$root/$name"
 			}
 		}
 	}

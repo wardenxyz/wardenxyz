@@ -138,7 +138,7 @@ Current installation options:
 2) Customize installation
 
 3) Cancel installation
->2                    <------------------------------------------------------------------- 选第 2 种
+>2                    <------------------------------------------------------------------- 选第 2 个
 
 I'm going to ask you the value of each of these installation options.
 You may simply press the Enter key to leave unchanged.
