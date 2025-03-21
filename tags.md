@@ -46,6 +46,7 @@
 
 ## Typst
 
+- 2025-03-21 [在 zed 上配置 typstyle](<posts/2025/zed_use_typstyle.md>)
 - 2024-11-27 [Typst 笔记](<posts/2024/Typst_note.md>)
 
 ## Windows
@@ -118,6 +119,7 @@
 
 ## zed
 
+- 2025-03-21 [在 zed 上配置 typstyle](<posts/2025/zed_use_typstyle.md>)
 - 2025-03-14 [在 Zed Editor 中配置 OpenAI API 兼容的模型](<posts/2025/Zed_set_OpenAI_API_Compatible_model.md>)
 - 2025-03-11 [zed 使用笔记](<posts/2025/zed_use.md>)
 
@@ -138,10 +140,6 @@
 ## 浏览器
 
 - 2024-04-08 [浏览器UA值](<posts/2024/browser_UA_value.md>)
-
-## 知乎好文
-
-- 2025-02-06 [启蒙思想下的中国科技焦虑](<posts/2025/Tech_Anxiety_in_China.md>)
 
 ## 神秘博士
 

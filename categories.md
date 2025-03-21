@@ -48,9 +48,9 @@
 - 2024-04-08 [git 分支操作](<posts/2024/git_branch.md>)
 - 2024-04-08 [ffmpeg 自用命令](<posts/2024/ffmpeg_note.md>)
 
-## 转裁
+## 计算机技术
 
-- 2025-02-06 [启蒙思想下的中国科技焦虑](<posts/2025/Tech_Anxiety_in_China.md>)
+- 2025-03-21 [在 zed 上配置 typstyle](<posts/2025/zed_use_typstyle.md>)
 
 ## 软件
 
