@@ -55,6 +55,14 @@ export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
 
 上面两个二选一
 
+配置好的用户变量：
+
+```
+变量                                值
+RUSTUP_DIST_SERVER                 https://rsproxy.cn
+RUSTUP_UPDATE_ROOT                 https://rsproxy.cn/rustup
+```
+
 ### 配置安装位置
 
 在 D 盘下创建两个文件夹
@@ -64,11 +72,13 @@ D:\Rust\rustup
 D:\Rust\cargo
 ```
 
-把这两个文件夹加入到环境变量中去
+把这两个文件夹加入到用户变量中去
 
-RUSTUP_HOME 对应 D:\Rust\rustup
-
-CARGO_HOME 对应 D:\Rust\cargo
+```
+变量                                值
+RUSTUP_HOME                        D:\Rust\rustup
+CARGO_HOME                         D:\Rust\cargo
+```
 
 ## 安装
 
