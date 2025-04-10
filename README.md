@@ -10,6 +10,10 @@ Welcome to my GitHub-based blog! This is a minimalist blog that uses pure markdo
 <!-- BLOG-POST-LIST:START -->
 ## 2025 年
 
+### 4 月
+
+- 2025-04-10 [安装 WSL2 并迁移到 D 盘](<posts/2025/install_wsl2_and_to_d_disk.md>)
+
 ### 3 月
 
 - 2025-03-21 [在 zed 上配置 typstyle](<posts/2025/zed_use_typstyle.md>)

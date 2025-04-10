@@ -34,6 +34,7 @@
 
 ## Linux
 
+- 2025-04-10 [安装 WSL2 并迁移到 D 盘](<posts/2025/install_wsl2_and_to_d_disk.md>)
 - 2024-10-07 [Linux 学习笔记](<posts/2024/Linux_note.md>)
 
 ## OpenSSL
@@ -48,6 +49,10 @@
 
 - 2025-03-21 [在 zed 上配置 typstyle](<posts/2025/zed_use_typstyle.md>)
 - 2024-11-27 [Typst 笔记](<posts/2024/Typst_note.md>)
+
+## WSL2
+
+- 2025-04-10 [安装 WSL2 并迁移到 D 盘](<posts/2025/install_wsl2_and_to_d_disk.md>)
 
 ## Windows
 
